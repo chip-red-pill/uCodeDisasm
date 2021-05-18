@@ -5,14 +5,14 @@
 
 # Content
 [Introduction](#introduction)  
-[Usage](#Usage)
+[Usage](#Usage)  
 [The Structure and the Binary Format of Intel Atom Goldmont Microcode](#the-structure-and-the-binary-format-of-intel-atom-goldmont-microcode)  
 [Description of Some Important Microoperations](#description-of-some-important-microoperations)  
 [Text Labels For Microcode Addresses](#text-labels-for-microcode-addresses)  
-[Unresolved Questions](#unresolved-questions) 
-[Content of the Publication](#content-of-the-publication) 
+[Unresolved Questions](#unresolved-questions)  
+[Content of the Publication](#content-of-the-publication)  
 [Research Team](#research-eam)  
-[License](#license)
+[License](#license)  
 
 
 # Introduction
