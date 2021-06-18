@@ -21,7 +21,7 @@ Since Intel Atom CPUs are full-fledged, modern representatives of the x86 archit
 
 So last year we managed to extract the microcode for the actual Intel Atom microprocessor having codename Goldmont. We don’t intend to describe the process now, but instead we would like to share our results of the reverse engineering that we’re doing for the Atom’s microcode. Here, we are publishing our microcode disassembler tool using which you can see the interpretation in plain, readable form of the binary microcode which we have already published last year ([glm-ucode][4]). Our disassembler is written in Python 3.x script language and prints the binary microoperations together with their text representation (mnemonic + operands). The text translation is done based on our understanding and the progress in the reverse engineering at the current stage, so we don’t claim its absolute accuracy. There can be errors as in the microoperation mnemonics naming as well in the arguments representation. Moreover, there still exist unknown operation codes (opcodes) for many microoperations (mostly, for XMM specific), but the basic control flow and ALU opcodes were determined. We encourage all researchers interested in the topic to continue with us the research and extend our disassembler fixing the errors and adding new opcodes. This is one of the goals for the current publication of the microcode disassembler tool intendent for Intel Atom CPUs microcode.
 
-At first glance at the disassembler’s output the researcher may be confused by the naming of some mnemonics especially for microoperations working with physical memory (e.g. LDPPHYSTICKLE_DSZ64_ASZ64_SC1) and he can raise the question of the source for those weird names.  For now, we can say only that those mnemonics were acquired directly from Intel – they published on the one of their official internet resources the raw data representing log files from some microcode simulation tool for certain Big Core microarchitecture. Now, the link isn’t available, but we kept the data which have been subject to deep analysis where we got all those sophisticated mnemonics. By analogy, we invented and our own, where we were not able to find correspondent in the list using the logic and the existing mnemonics as a template. We’re publishing the original list of the opcodes’ mnemonics in separate file (misc/bigcore_opcodes.txt) to let researchers make independent decision about correctness of our choice in the naming and use it for new opcodes.
+At first glance at the disassembler’s output researcher may be confused by the naming of some mnemonics especially for microoperations working with physical memory (e.g. LDPPHYSTICKLE_DSZ64_ASZ64_SC1) and he can raise the question of the source for those weird names.  For now, we can say only that those mnemonics were acquired directly from Intel – they published on the one of their official internet resources the raw data representing log files from some microcode simulation tool for certain Big Core microarchitecture. Now, the link isn’t available, but we kept the data which have been subject to deep analysis where we got all those sophisticated mnemonics. By analogy, we invented and our own, where we were not able to find correspondent in the list using the logic and the existing mnemonics as a template. We’re publishing the original list of the opcodes’ mnemonics in separate file (misc/bigcore_opcodes.txt) to let researchers make independent decision about correctness of our choice in the naming and use it for new opcodes.
 
 Next, we will describe the structure of Atom Goldmont microcode and the basic semantic of some most important microoperations. Further, we will describe the remaining unresolved problems which we encountered during our research.
 
@@ -171,39 +171,39 @@ Even more x86 entries aren’t determined yet. As you can see, each x86 instruct
 
 Our disassembler is far from complete. Here’re the open issues (how we see it) to be implemented:
 
-1.  Opcodes and semantic for most SSE uops.  
+1.  Opcodes and semantic for most SSE uops  
 Although we found several uops processing MMX/XMM data and implemented the support in our disassembler for mixed uops operating with both MMX/XMM and GP registers (the selectors for the registers in src0/src1/dst fields are overlapped), we didn’t process all SSE microoperations: we added only simple SSE uops those map one to one to correspondent x86 instructions naming them as the instructions (in fact, the mnemonics names for uops may differ). There exist in microcode the procedure for fast SHA256 implementation using vectored SSE data – it almost completely consists from uops with unknown opcodes. That’s a good place to start researching SSE uops.
 
-1.  Two unknown bits for TESTUSTATE.  
+1.  Two unknown bits for TESTUSTATE  
 From all possible 48 state bits which can be used in TESTUSTATE uop, only for two of them we don’t know where they are in the microarchitectural state (see description for the TESTUSTATE uop above). We didn’t find bit #1 from UCODE state and bit #13 from SYS state. To understand their meaning, it must be found at first where the bits exist in the microarchitecture (CRBUS, arch state, Fuse, FSCP and so on).
 
-1.	Text names for state bits of TESTUSTATE.  
+1.	Text names for state bits of TESTUSTATE  
 We assigned the names for eight most important SYS states of TESTUSTATE uop. You can find the enumeration in Phyton’s function parsing the arguments of the uop (*get_str_uop_xxx_ustate_special_imms*). For remaining seven (one bit is unterminated) SYS states and for VMX states, their purpose must be determined by reverse engineering of microcode changing the states’ sources and appropriate names must be assigned (the Python code has dict for the names to be extended).
 
-1.	Many CRBUS registers.  
+1.	Many CRBUS registers  
 Unfortunately, we don’t have full list of CRBUS registers for Atom Goldmont microarchitecture (we do have the list for some Big Cores that was acquired from XML files of Intel DAL software package). However, the knowing of the Control Registers and their bit layout is very important for complete reverse engineering of the microcode (you will see how much code in MSROM works with CRBUS). We found and added to our disassembler some CRegs using their correlation with MSRs but they are very few of full set.
 
-1.	SIGEVENT numeric argument.  
+1.	SIGEVENT numeric argument  
 This uop is used to raise x86 architectural exceptions. We found (using pure logic) two very important places where #UD and #GP exceptions are generated in microcode using the SIGEVENT uop, but we are not able to map the SIGEVENT argument to x86 exception vector. It seems there’s some other information in the numbers passed to SIGEVENT that must be understood, so the more convenient support for the SIGEVENT uop can be added to our disassembler.
 
-1.	UFLOWCTRL first argument’s value 0x01.  
+1.	UFLOWCTRL first argument’s value 0x01  
 We didn’t determinate the purpose of the UFLOWCTRL with first argument’s value of 0x01. It replaces some other uop but it’s unknown which for the argument.
 
-1.	Sequence Word’s UEND variations.  
+1.	Sequence Word’s UEND variations  
 We detected among eflow field bits of Sequence Words four values requesting the end of microcode sequencing for current macroinstruction. We marked them as UEND0, UEND1, UEND2 and UEND3. Although we suppose they are indented to deal with out of order execution of uops during the microcode sequencing and perhaps beyond the macroinstruction boundaries the certain purpose of each UENDX is to be determined.
 
-1.	Find an unfixable bug in CPU initialization code.  
+1.	Find an unfixable bug in CPU initialization code  
 We already found many interesting things using our disassembler, in particular the two undocumented x86 instructions for microarchitectural access, but the main goal remains unresolved: to find a bug in microcode performing CPU initialization from the Reset Entry Point in microcode (U4000) to call of x86 Reset Vector. It’s very probably that a bug in that code flow could not be fixed by microcode patch what makes a precedent of truly unfixable microcode bug and changes the approach of the industry to the microcode implementation.
 
 
 # Content of the Publication
 
 1.	We publish our microcode disassembler (glm_ucode_disasm), consisting from: 
-   * main Python script glm_ucode_disasm.py
-   * opcode.txt file with all opcode mnemonics which we determined
-   * hard_imm.txt containing all constants from Constants ROM of Atom Goldmont. They are used in uops with special src0/1 selectors
-   * Various auxiliary files containing  textual names for several microarchitectural entities (CRBUS regs, URAM entries, labels for microcode addresses)
-2.	We publish without any description (who wants to - let him deal with the code) the IDQ (Instruction Decode Queue) processing Python code (*idq_disassemble* function) with sample test data (*idq_test_uops.txt* and *idq_test_imms.txt* in /glm_ucode_disasm). IDQ is a key for reverse engineering of the microoperations format and uop opcodes. The code is tightly coupled with disassembler and we don’t want to separate it.
+    * main Python script glm_ucode_disasm.py
+    * opcode.txt file with all opcode mnemonics which we determined
+    * hard_imm.txt containing all constants from Constants ROM of Atom Goldmont. They are used in uops with special src0/1 selectors
+    * Various auxiliary files containing  textual names for several microarchitectural entities (CRBUS regs, URAM entries, labels for microcode addresses)
+2.	We publish without any description (who wants to - let him deal with the code) the IDQ (Instruction Decode Queue) processing Python code (*idq_disassemble* function) with sample test data (*idq_test_uops.txt* and *idq_test_imms.txt* in */glm_ucode_disasm*). IDQ is a key for reverse engineering of the microoperations format and uop opcodes. The code is tightly coupled with disassembler and we don’t want to separate it.
 2.	Microoperations opcodes and mnemonics for one of Intel Big Core representative (*misc/bigcore_opodes.txt*)
 2.	The full list of all MSRs (*misc/glm_msr_read_desc.txt*, *misc/glm_msr_write_desc.txt*) for Atom Goldmont microarchitecture. MSRs are a bridge between x86 architecture and the microcode, some kind of an interface and they are very important for successfully reverse engineering of microcode. We extracted the two lists of MSR descriptors from special ROM area in uarch (via arbitrary execution of MSR2CR uop), parsed them according to microcode (see *rdmsr_xlat* and *wrmsr_xlat*) and publish the results: for each existing MSR, the following is published: MSR address, applicable modes, the check procedure in microcode, read/write procedure in microcode, address of microarchitectural data for MSR depending of its type (CRBUS regs, URAM regs, hardware register accessed via IO uops, custom MSR composed from many sources). There’re four modes, which affect MSR availability: Normal, SMM, JTAG and ELF (special very privileged x86 code that can exist in microcode update file in encrypted form and gets run directly by microcode). In our MSRs lists, in field Type we mark MSRs by: N (Normal), S (SMM), J (JTAG) and E (ELF).
 
