@@ -112,6 +112,7 @@ g_dst_mnem += g_idq_src_dst_mnem
 g_uop_lables = {}
 g_uop_cregs = {}
 g_uop_fscp_regs = {}
+g_uop_ioregs = {}
 
 def glm_ucode_disasm_init():
     global g_opcodes
@@ -293,6 +294,11 @@ def is_uop_uret(uop):
     uret_opcodes = [0x148]
     opcode = get_uop_opcode(uop)
     return opcode in uret_opcodes
+
+def is_uop_rw_ioport(uop):
+    rwio_opcodes = [0xd0b, 0xd0f]
+    opcode = get_uop_opcode(uop)
+    return (opcode & 0xf3f) in rwio_opcodes
 
 def get_str_uop_phys_stg_buf_ldstad_special_imms(uop, uaddr):
     str_special_imms = ()
@@ -684,6 +690,21 @@ def get_str_uop_uret_special_imms(uop, uaddr):
     str_special_imms += "0x%02x" % uret_idx,
     return str_special_imms
 
+def get_str_uop_rw_ioport_special_imms(uop, uaddr):
+    src0_sel = get_src0_sel(uop)
+    src1_sel = get_src1_sel(uop)
+    is_src0_imm = is_src_imm_sel(src0_sel)
+    is_src1_imm = is_src_imm_sel(src1_sel)
+    assert(not is_src1_imm)
+    
+    str_special_imms = ()
+    if is_src0_imm:
+        assert((src0_sel & 0x10) == 0)
+        special_imm = ((src0_sel & 0x07) << 13) | ((uop & 0x7c0000) >> 10) | ((uop & 0xff000000) >> 24)
+        str_special_imms += get_str_ioreg(special_imm), "$"
+    
+    return str_special_imms
+
 def get_str_uop_common_special_imms(uop, uaddr):
     special_imm = (uop & 0xff000000) >> 24
     str_special_imms = "0x%08x" % special_imm,
@@ -703,6 +724,7 @@ g_uop_special_imms_process_funcs = ( \
     (is_uop_rw_segfield, get_str_uop_rw_segfield_special_imms), \
     (is_uop_aet_trace, get_str_uop_aet_trace_special_imms), \
     (is_uop_uret, get_str_uop_uret_special_imms), \
+    (is_uop_rw_ioport, get_str_uop_rw_ioport_special_imms), \
     (is_uop_common_special_imm, get_str_uop_common_special_imms))
 
 def is_uop_special_imms(uop):
@@ -840,6 +862,11 @@ def get_str_uram_addr(uram_addr):
     if uram_addr in g_uop_fscp_regs:
         return g_uop_fscp_regs[uram_addr]
     return "0x%04x" % uram_addr
+
+def get_str_ioreg(ioreg):
+    if ioreg in g_uop_ioregs:
+        return g_uop_ioregs[ioreg]
+    return "0x%04x" % ioreg
 
 def uop_disassemble(uop, uaddr):
     src0_sel = get_src0_sel(uop)
@@ -1112,9 +1139,11 @@ def msrom_disasm(arrays_dump_dir):
     global g_uop_cregs
     global g_uop_lables
     global g_uop_fscp_regs
+    global g_uop_ioregs
     g_uop_lables = load_id_names_str_data("lables.txt")
     g_uop_cregs = load_id_names_str_data("cregs.txt")
     g_uop_fscp_regs = load_id_names_str_data("fscp.txt")
+    g_uop_ioregs = load_id_names_str_data("ioregs.txt")
     ucode = load_ms_array_str_data(arrays_dump_dir + "\\ms_array0.txt")
     msrom_seqwords = load_ms_array_str_data(arrays_dump_dir + "\\ms_array1.txt")
     assert(len(ucode) == len(msrom_seqwords))

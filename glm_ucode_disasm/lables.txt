@@ -13,6 +13,7 @@
 0738: sysexit_xlat
 0788: rdtscp_xlat
 0794: clear_aflags_uend0
+07b5: send_op_pcu_mailbox
 0818: hlt_xlat
 0890: mov_cr0_r64_xlat
 08c0: rsm_xlat
@@ -69,6 +70,7 @@
 556a: calc_fast_sha256_start
 5795: rsa_signing_error
 5c01: probe_mode_force_smm_xlat
+5c62: send_op_data_pcu_mailbox
 5e68: fit_process_error
 5ed5: rc4_decrypt
 608a: fit_load_end
