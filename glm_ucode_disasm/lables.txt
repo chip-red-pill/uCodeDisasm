@@ -15,6 +15,7 @@
 0794: clear_aflags_uend0
 07b5: send_op_pcu_mailbox
 0818: hlt_xlat
+0858: pcommit_xlat
 0890: mov_cr0_r64_xlat
 08c0: rsm_xlat
 08c8: vmxoff_xlat
@@ -32,6 +33,7 @@
 0bc9: write_port_4c
 0bd0: wmptrst_xlat
 0be0: cpuid_xlat
+0bf0: pause_xlat
 0c10: sgdt_xlat
 0c70: mov_r64_cr8_xlat
 0c80: wrmsr_xlat
@@ -50,12 +52,14 @@
 2771: generate_#NM
 27b4: patch_load_error
 27c1: uarch_bufs_ldat_init
+27dc: skip_patch_processing
 27f1: patch_apply_error
 2d72: check_rsa_padding_signature
 2b15: lbsync_full
 304e: uret0
 3210: uend0
 327c: apply_ucode_patch
+334d: ith_trace_pdm
 35a5: exit_probe_mode
 3a41: enter_probe_mode
 3dfa: check_cpl_uend3
@@ -75,8 +79,10 @@
 5ed5: rc4_decrypt
 608a: fit_load_end
 64ea: ucode_fit_xlat_found
+6bfd: pdm_trace_uacrh_state
 6e16: fit_load_start
 6e42: process_next_fit_xlat
 6e4c: non_ucode_fit_xlat_found
+6f3d: process_plain_patch
 735c: rsa_decrypt
 75c6: enclu_impl
