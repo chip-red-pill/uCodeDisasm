@@ -114,7 +114,26 @@ g_uop_cregs = {}
 g_uop_fscp_regs = {}
 g_uop_ioregs = {}
 
-def glm_ucode_disasm_init():
+def load_id_names_str_data(file_name):
+    id_names = {}
+    fi = open(file_name, "r")
+    str_id_names = fi.read()
+    fi.close()
+    
+    str_id_name_lines = str_id_names.split("\n")
+    for id_name in str_id_name_lines:
+        id_name_seq = id_name.split(":")
+        if len(id_name_seq) != 2:
+            continue
+        str_id, str_name = id_name_seq
+        if str_id == "" or str_name == "":
+            continue
+        id = int(str_id, 16)
+        if id not in id_names:
+            id_names[id] = str_name.strip()
+    return id_names
+
+def glm_ucode_disasm_init(init_udata):
     global g_opcodes
     g_opcodes = {}
     fi = open("opcodes.txt", "r")
@@ -137,6 +156,16 @@ def glm_ucode_disasm_init():
         str_hard_imm = str_hard_imm.strip()
         if len(str_hard_imm):
             g_hard_imms.append(int(str_hard_imm, 16))
+    
+    if init_udata:
+        global g_uop_cregs
+        global g_uop_lables
+        global g_uop_fscp_regs
+        global g_uop_ioregs
+        g_uop_lables = load_id_names_str_data("lables.txt")
+        g_uop_cregs = load_id_names_str_data("cregs.txt")
+        g_uop_fscp_regs = load_id_names_str_data("fscp.txt")
+        g_uop_ioregs = load_id_names_str_data("ioregs.txt")
 
 def get_uop_opcode(uop):
     return (uop >> 32) & 0xfff
@@ -256,12 +285,12 @@ def is_uop_creg_move_fromto(uop):
     opcode = get_uop_opcode(uop)
     return opcode in creg_move_fromto_opcodes
 
-def is_uop_creg_xxx(uop):
+def is_uop_creg_uram_xxx(uop):
     opcode = get_uop_opcode(uop)
-    return opcode >= 0x800 and opcode <= 0xb00 and opcode & 0xff == opcode & 0xe2
+    return opcode >= 0x800 and opcode <= 0xb00 and opcode & 0xff == opcode & 0xe3
 
 def is_uop_xxx_uip_regovr(uop):
-    xxx_uip_flgs_opcodes = [0x00c, 0x00d, 0x04c, 0x08c, 0x0cc, 0x108]
+    xxx_uip_flgs_opcodes = [0x00c, 0x00d, 0x04c, 0x04d, 0x08c, 0x0cc, 0x108]
     opcode = get_uop_opcode(uop)
     return opcode in xxx_uip_flgs_opcodes
 
@@ -423,7 +452,7 @@ def get_str_uop_creg_move_fromto_special_imms(uop, uaddr):
     
     return str_special_imms
 
-def get_str_uop_creg_xxx_special_imms(uop, uaddr):
+def get_str_uop_creg_uram_xxx_special_imms(uop, uaddr):
     src1_sel = get_src1_sel(uop)
     
     if src1_sel == 0x10:
@@ -518,7 +547,8 @@ g_str_ustates = {
 
 g_str_ustate_bits = (
     {
-        0x0001: "UST_MSLOOPCTR_NONZERO" \
+        0x0001: "UST_MSLOOPCTR_NONZERO", \
+        0x0800: "UST_SMM" \
     }, \
     {
         0x0001: "UST_VMX_DIS", \
@@ -526,8 +556,8 @@ g_str_ustate_bits = (
         0x0004: "UST_8086_MODE", \
         0x0008: "UST_OP_SIZE_32BIT", \
         0x0010: "UST_ADDR_SIZE_64BIT", \
-        0x0020: "UST_SMM", \
-        0x0040: "UST_VMX_DUAL_MON", \
+        0x0020: "UST_XUCODE", \
+        0x0040: "UST_SE_INIT_DONE", \
         0x0080: "UST_VMX_GUEST", \
         0x0100: "UST_VMX_OP_DIS" \
     }, \
@@ -716,7 +746,7 @@ g_uop_special_imms_process_funcs = ( \
     (is_uop_log_ldstad, get_str_uop_log_ldstad_special_imms), \
     (is_uop_cmpujcc, get_str_uop_cmpujcc_special_imms), \
     (is_uop_creg_move_fromto, get_str_uop_creg_move_fromto_special_imms), \
-    (is_uop_creg_xxx, get_str_uop_creg_xxx_special_imms), \
+    (is_uop_creg_uram_xxx, get_str_uop_creg_uram_xxx_special_imms), \
     (is_uop_xxx_uip_regovr, get_str_uop_xxx_uip_regovr_special_imms), \
     (is_uop_uram_rw, get_str_uop_uram_rw_special_imms), \
     (is_uop_xxx_ustate, get_str_uop_xxx_ustate_special_imms), \
@@ -806,7 +836,7 @@ def get_idq_src_dst_mnem(sel, is_xmm):
 
 def is_uop_mmxmm(uop):
     opcode = get_uop_opcode(uop)
-    non_mmxmm_opcodes = [0x52b, 0x608, 0x646, 0x685, 0x68a, 0x6a0, 0x6ed,
+    non_mmxmm_opcodes = [0x608, 0x646, 0x685, 0x68a, 0x6a0, 0x6ed,
                          0x720, 0x722, 0x723, 0x7b8, 0x7ed]
     mmxmm_opcodes = [0xcfe, 0xeae, 0xeee]
     if opcode in non_mmxmm_opcodes:
@@ -818,13 +848,13 @@ def is_uop_mmxmm(uop):
 def is_mmxmm_uop_src_mmxmm(uop):
     assert(is_uop_mmxmm(uop))
     opcode = get_uop_opcode(uop)
-    non_mmxmm_src_opcodes = [0x705, 0x716, 0x745]
+    non_mmxmm_src_opcodes = [0x705, 0x716, 0x745, 0x746, 0x747]
     return opcode not in non_mmxmm_src_opcodes
 
 def is_mmxmm_uop_dst_mmxmm(uop):
     assert(is_uop_mmxmm(uop))
     opcode = get_uop_opcode(uop)
-    non_mmxmm_dst_opcodes = [0x72c, 0x72d]
+    non_mmxmm_dst_opcodes = [0x72c, 0x72d, 0x72f]
     return (opcode & 0xfbf) not in non_mmxmm_dst_opcodes
 
 def is_uop_two_src(uop):
@@ -894,7 +924,7 @@ def uop_disassemble(uop, uaddr):
     if is_src0 and not is_src0_imm:
         str_src0 = get_src_mnem(src0_sel, is_src_xmm)
     if is_src1 and not is_src1_imm:
-        str_src1 = get_src_mnem(src1_sel, is_src_xmm)
+        str_src1 = get_src_mnem(src1_sel, is_uop_mmxmm(uop))
     if is_src2:
         str_src2 = get_dst_mnem(dst_sel, is_dst_xmm) if dst_sel else "0x%08x" % 0
     elif is_dst:
@@ -1024,25 +1054,6 @@ def load_ms_array_str_data(file_name):
             array_vals.append(int(val, 16))
     return array_vals
 
-def load_id_names_str_data(file_name):
-    id_names = {}
-    fi = open(file_name, "r")
-    str_id_names = fi.read()
-    fi.close()
-    
-    str_id_name_lines = str_id_names.split("\n")
-    for id_name in str_id_name_lines:
-        id_name_seq = id_name.split(":")
-        if len(id_name_seq) != 2:
-            continue
-        str_id, str_name = id_name_seq
-        if str_id == "" or str_name == "":
-            continue
-        id = int(str_id, 16)
-        if id not in id_names:
-            id_names[id] = str_name.strip()
-    return id_names
-
 def process_seqword(uaddr, uop, seqword, before_uop):
     uop_ctrl = (seqword & 0x3c) >> 2
     uop_ctrl_uidx = seqword & 0x03
@@ -1121,6 +1132,30 @@ def process_seqword(uaddr, uop, seqword, before_uop):
     
     return (res, exec_flow_stop) if after_uop else res
 
+def process_match_patch_regs(match_patch_regs):
+    match_patch_data = {}
+    patch_match_data = {}
+    for match_patch_reg in match_patch_regs:
+        if not (match_patch_reg & 0x1):
+            continue
+        match_addr = match_patch_reg & 0xfffe
+        patch_addr = ((match_patch_reg & 0x7fff0000) >> 16) << 1
+        assert(match_addr not in match_patch_data)
+        assert(patch_addr not in patch_match_data)
+        match_patch_data[match_addr] = patch_addr
+        patch_match_data[patch_addr] = match_addr
+    return match_patch_data, patch_match_data
+
+def process_msram_uops(msram):
+    assert(len(msram) == 0x200)
+    msram_ucode = []
+    for i in range(0x80):
+        msram_ucode.append(msram[i])
+        msram_ucode.append(msram[0x80 + i])
+        msram_ucode.append(msram[0x100 + i])
+        msram_ucode.append(msram[0x180 + i])
+    return msram_ucode
+
 def idq_test():
     fi = open("idq_test_uops.txt", "r")
     str_idq_uops = fi.read()
@@ -1136,25 +1171,27 @@ def idq_test():
         for str_idq_uop, str_idq_imm in zip(str_idq_uops, str_idq_imms))
 
 def msrom_disasm(arrays_dump_dir):
-    global g_uop_cregs
-    global g_uop_lables
-    global g_uop_fscp_regs
-    global g_uop_ioregs
-    g_uop_lables = load_id_names_str_data("lables.txt")
-    g_uop_cregs = load_id_names_str_data("cregs.txt")
-    g_uop_fscp_regs = load_id_names_str_data("fscp.txt")
-    g_uop_ioregs = load_id_names_str_data("ioregs.txt")
     ucode = load_ms_array_str_data(arrays_dump_dir + "\\ms_array0.txt")
     msrom_seqwords = load_ms_array_str_data(arrays_dump_dir + "\\ms_array1.txt")
     assert(len(ucode) == len(msrom_seqwords))
     msram_seqwords = load_ms_array_str_data(arrays_dump_dir + "\\ms_array2.txt")
+    match_patch_regs = load_ms_array_str_data(arrays_dump_dir + "\\ms_array3.txt")
+    match_patch_data, patch_match_data = process_match_patch_regs(match_patch_regs)
+    
+    msram = load_ms_array_str_data(arrays_dump_dir + "\\ms_array4.txt")
+    msram_ucode = process_msram_uops(msram)
+    if len(ucode) > 0x7c00:
+        ucode = ucode[0: 0x7c00]
+        msrom_seqwords = msrom_seqwords[0: 0x7c00]
+    ucode += msram_ucode
     
     str_exec_flow_delim = "------------------------------------------------------------------------------------"
     str_disasm = ""
     for uaddr, uop in enumerate(ucode):
-        seqword = msrom_seqwords[uaddr // 4 * 4]
-        if uaddr >= 0x7c00:
-            msram_addr = uaddr - (0x7e00 if uaddr >= 0x7e00 else 0x7c00)
+        if uaddr < 0x7c00:
+            seqword = msrom_seqwords[uaddr // 4 * 4]
+        else:
+            msram_addr = uaddr - 0x7c00
             seqword = msram_seqwords[msram_addr // 4]
         
         if uaddr & 3 == 3:
@@ -1166,17 +1203,24 @@ def msrom_disasm(arrays_dump_dir):
                 str_disasm += "\n"
             str_disasm += g_uop_lables[uaddr] + ":\n"
         
-        str_disasm += "U%04x: " % uaddr + "%012x" % uop
+        str_match_patch_addr = ""
+        if uaddr in match_patch_data or uaddr in patch_match_data:
+            str_match_patch_addr = "U%04x: " % (match_patch_data[uaddr] if uaddr in match_patch_data else \
+                                                patch_match_data[uaddr])
+        
+        str_disasm += "U%04x: " % uaddr + str_match_patch_addr + "%012x " % uop
         seqword_prefix = process_seqword(uaddr, uop, seqword, True)
+        str_seqw_prefix_format = "%" + ("%d" % (15 - len(str_match_patch_addr)))  + "s "
         if seqword_prefix != "":
-            str_disasm += "%15s " % seqword_prefix
+            str_disasm += str_seqw_prefix_format % seqword_prefix
         else:
-            str_disasm += "%16s" % ""
+            str_disasm += str_seqw_prefix_format % ""
+        
         str_disasm += uop_disassemble(uop, uaddr) + "\n"
         seqword_sentences, exec_flow_stop = process_seqword(uaddr, uop, seqword, False)
         if len(seqword_sentences):
             for idx, seqword_sentence in enumerate(seqword_sentences):
-                str_prefix = "%19s" % ("%08x" % seqword if idx == 0 else "") + "%16s" % ""
+                str_prefix = "%19s" % ("%08x" % seqword if idx == 0 else "") + "%17s" % ""
                 str_disasm += str_prefix + seqword_sentence + "\n"
             if exec_flow_stop:
                 str_disasm += str_exec_flow_delim + "\n"
@@ -1195,16 +1239,25 @@ def main():
         print("Usage: glm_ucode_disasm <ms_array0_file_path>")
         return -1
     
-    glm_ucode_disasm_init()
+    glm_ucode_disasm_init(True)
     msrom_disasm(os.path.split(sys.argv[1])[0])
 
 def main_ipc():
     cur_dir = os.getcwd()
     os.chdir("c:\\Work\\E\\UCode\\scripts\\glm_ucode_disasm")
-    glm_ucode_disasm_init()
+    glm_ucode_disasm_init(False)
     os.chdir(cur_dir)
 
-if "ipccli" not in sys.modules:
-    main()
+def main_package():
+    cur_dir = os.getcwd()
+    os.chdir(os.path.split(__file__)[0])
+    glm_ucode_disasm_init(True)
+    os.chdir(cur_dir)
+
+if __name__ == "__main__":
+    if "ipccli" not in sys.modules:
+        main()
+    else:
+        main_ipc()
 else:
-    main_ipc()
+    main_package()
