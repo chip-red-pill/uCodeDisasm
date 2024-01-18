@@ -1,628 +1,814 @@
-msr: 0x00000000: desc: 0x078e083d: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x382: addr2: 0x8e08
-msr: 0x00000001: desc: 0x698e067d: mode:  N: chkproc: U3748: rdproc: U31a4: addr1: 0x381: addr2: 0x8e04
-msr: 0x00000006: desc: 0x0148183b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x206: addr2: 0x4818
-msr: 0x00000010: desc: 0x1000ec3d: mode:  N: chkproc: U3700: rdproc: U3040: addr1: 0x03b: addr2: 0x00ec
-msr: 0x00000017: desc: 0x6647113d: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1c4: addr2: 0x4710
-msr: 0x0000001b: desc: 0x001eec3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x7bb: addr2: 0x1eec
-msr: 0x0000002a: desc: 0x6100003d: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000
-msr: 0x0000002e: desc: 0x0ccb9a7b: mode:  N: chkproc: U3748: rdproc: U3030: addr1: 0x2e6: addr2: 0xcb98
-msr: 0x00000033: desc: 0x0c04163b: mode:  N: chkproc: U3740: rdproc: U3030: addr1: 0x105: addr2: 0x0414
-msr: 0x00000034: desc: 0x0100d83b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x036: addr2: 0x00d8
-msr: 0x00000035: desc: 0x140083bb: mode:  N: chkproc: U3770: rdproc: U3050: addr1: 0x020: addr2: 0x0080
-msr: 0x00000039: desc: 0x078ae43b: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x2b9: addr2: 0x8ae4
-msr: 0x0000003a: desc: 0x0100e83b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x03a: addr2: 0x00e8
-msr: 0x0000003b: desc: 0x0100ec3d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x03b: addr2: 0x00ec
-msr: 0x00000052: desc: 0x15008fb3: mode:  S: chkproc: U3770: rdproc: U3054: addr1: 0x023: addr2: 0x008c
-msr: 0x00000070: desc: 0x1600002d: mode:  J: chkproc: U3700: rdproc: U3058: addr1: 0x000: addr2: 0x0000
-msr: 0x00000071: desc: 0x1800002d: mode:  J: chkproc: U3700: rdproc: U3060: addr1: 0x000: addr2: 0x0000
-msr: 0x00000072: desc: 0x1901c82d: mode:  J: chkproc: U3700: rdproc: U3064: addr1: 0x072: addr2: 0x01c8
-msr: 0x00000073: desc: 0x1a00002d: mode:  J: chkproc: U3700: rdproc: U3068: addr1: 0x000: addr2: 0x0000
-msr: 0x00000074: desc: 0x1b00002d: mode:  J: chkproc: U3700: rdproc: U306c: addr1: 0x000: addr2: 0x0000
-msr: 0x0000007a: desc: 0x0c008fb3: mode:  S: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x0000007d: desc: 0x6100002d: mode:  J: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000
-msr: 0x0000007e: desc: 0x6100002d: mode:  J: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000
-msr: 0x0000008b: desc: 0x0c41c7bf: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x071: addr2: 0x41c4
-msr: 0x0000009b: desc: 0x01422c3b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x08b: addr2: 0x422c
-msr: 0x0000009e: desc: 0x0101c433: mode:  S: chkproc: U3700: rdproc: U3004: addr1: 0x071: addr2: 0x01c4
-msr: 0x000000c1: desc: 0x079f80fd: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x7e0: addr2: 0x9f80
-msr: 0x000000c2: desc: 0x078990fd: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x264: addr2: 0x8990
-msr: 0x000000c3: desc: 0x0789a0fd: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x268: addr2: 0x89a0
-msr: 0x000000c4: desc: 0x07c9b0fd: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x26c: addr2: 0xc9b0
-msr: 0x000000ce: desc: 0x6647193d: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1c6: addr2: 0x4718
-msr: 0x000000e2: desc: 0x0101083b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x042: addr2: 0x0108
-msr: 0x000000e4: desc: 0x0141103b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x044: addr2: 0x4110
-msr: 0x000000e7: desc: 0x07c99c3d: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x267: addr2: 0xc99c
-msr: 0x000000e8: desc: 0x0789603d: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x258: addr2: 0x8960
-msr: 0x000000fe: desc: 0x2201dfbb: mode:  N: chkproc: U3770: rdproc: U3088: addr1: 0x077: addr2: 0x01dc
-msr: 0x00000101: desc: 0x001e782b: mode:  J: chkproc: U3700: rdproc: U3000: addr1: 0x79e: addr2: 0x1e78
-msr: 0x00000120: desc: 0x0c008fbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x00000121: desc: 0x01022835: mode:  S: chkproc: U3700: rdproc: U3004: addr1: 0x08a: addr2: 0x0228
-msr: 0x0000013c: desc: 0x0c5c0633: mode:  S: chkproc: U3740: rdproc: U3030: addr1: 0x701: addr2: 0x5c04
-msr: 0x00000140: desc: 0x0c008fbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x0000015c: desc: 0x02400033: mode:  S: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x4000
-msr: 0x0000015d: desc: 0x0c008fb7: mode:  S: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x0000015e: desc: 0x28008fb7: mode:  S: chkproc: U3770: rdproc: U30a0: addr1: 0x023: addr2: 0x008c
-msr: 0x00000160: desc: 0x078b000d: mode: JE: chkproc: U3700: rdproc: U301c: addr1: 0x2c0: addr2: 0x8b00
-msr: 0x00000161: desc: 0x078b040d: mode: JE: chkproc: U3700: rdproc: U301c: addr1: 0x2c1: addr2: 0x8b04
-msr: 0x00000162: desc: 0x0101880d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x062: addr2: 0x0188
-msr: 0x00000163: desc: 0x01018c0d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x063: addr2: 0x018c
-msr: 0x00000164: desc: 0x0101900d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x064: addr2: 0x0190
-msr: 0x00000165: desc: 0x0101940d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x065: addr2: 0x0194
-msr: 0x00000166: desc: 0x0101980d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x066: addr2: 0x0198
-msr: 0x00000167: desc: 0x01019c0d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x067: addr2: 0x019c
-msr: 0x00000168: desc: 0x0101a00d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x068: addr2: 0x01a0
-msr: 0x00000169: desc: 0x0101a40d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x069: addr2: 0x01a4
-msr: 0x0000016a: desc: 0x0101a80d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x06a: addr2: 0x01a8
-msr: 0x0000016b: desc: 0x0101ac0d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x06b: addr2: 0x01ac
-msr: 0x0000016c: desc: 0x0101b00d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x06c: addr2: 0x01b0
-msr: 0x0000016d: desc: 0x0101b40d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x06d: addr2: 0x01b4
-msr: 0x0000016e: desc: 0x0101b80d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x06e: addr2: 0x01b8
-msr: 0x0000016f: desc: 0x0101bc0d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x06f: addr2: 0x01bc
-msr: 0x00000170: desc: 0x0200000b: mode: JE: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000
-msr: 0x00000171: desc: 0x0101c40b: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x071: addr2: 0x01c4
-msr: 0x00000172: desc: 0x0101c82d: mode:  J: chkproc: U3700: rdproc: U3004: addr1: 0x072: addr2: 0x01c8
-msr: 0x00000174: desc: 0x0101d039: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x074: addr2: 0x01d0
-msr: 0x00000175: desc: 0x0101d43d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x075: addr2: 0x01d4
-msr: 0x00000176: desc: 0x0101d83d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x076: addr2: 0x01d8
-msr: 0x00000179: desc: 0x2900d2bb: mode:  N: chkproc: U3750: rdproc: U30a4: addr1: 0x034: addr2: 0x00d0
-msr: 0x0000017a: desc: 0x0c008fbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x0000017d: desc: 0x26000037: mode:  S: chkproc: U3700: rdproc: U3098: addr1: 0x000: addr2: 0x0000
-msr: 0x0000017f: desc: 0x0d000ab3: mode:  S: chkproc: U3750: rdproc: U3034: addr1: 0x002: addr2: 0x0008
-msr: 0x00000186: desc: 0x079e58fb: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x796: addr2: 0x9e58
-msr: 0x00000187: desc: 0x07de5cfb: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x797: addr2: 0xde5c
-msr: 0x00000188: desc: 0x079e60fb: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x798: addr2: 0x9e60
-msr: 0x00000189: desc: 0x07de64fb: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x799: addr2: 0xde64
-msr: 0x00000198: desc: 0x2ac8c27f: mode:  N: chkproc: U3748: rdproc: U30a8: addr1: 0x230: addr2: 0xc8c0
-msr: 0x00000199: desc: 0x2b4147bf: mode:  N: chkproc: U3770: rdproc: U30ac: addr1: 0x051: addr2: 0x4144
-msr: 0x0000019a: desc: 0x6646b93b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1ae: addr2: 0x46b8
-msr: 0x0000019b: desc: 0x66482d3b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x20b: addr2: 0x482c
-msr: 0x0000019c: desc: 0x6648293b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x20a: addr2: 0x4828
-msr: 0x0000019d: desc: 0x6140043b: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x001: addr2: 0x4004
-msr: 0x000001a0: desc: 0x2c0107bf: mode:  N: chkproc: U3770: rdproc: U30b0: addr1: 0x041: addr2: 0x0104
-msr: 0x000001a2: desc: 0x6647493b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1d2: addr2: 0x4748
-msr: 0x000001a4: desc: 0x2d04163b: mode:  N: chkproc: U3740: rdproc: U30b4: addr1: 0x105: addr2: 0x0414
-msr: 0x000001a6: desc: 0x078898ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x226: addr2: 0x8898
-msr: 0x000001a7: desc: 0x07889cff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x227: addr2: 0x889c
-msr: 0x000001a8: desc: 0x0c008fbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x000001aa: desc: 0x0d00c2bb: mode:  N: chkproc: U3750: rdproc: U3034: addr1: 0x030: addr2: 0x00c0
-msr: 0x000001ad: desc: 0x6647693d: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1da: addr2: 0x4768
-msr: 0x000001ae: desc: 0x6647713d: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1dc: addr2: 0x4770
-msr: 0x000001b0: desc: 0x2f46bebb: mode:  N: chkproc: U3750: rdproc: U30bc: addr1: 0x1af: addr2: 0x46bc
-msr: 0x000001b1: desc: 0x6649f13b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x27c: addr2: 0x49f0
-msr: 0x000001b2: desc: 0x6649f53b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x27d: addr2: 0x49f4
-msr: 0x000001c6: desc: 0x078b183b: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x2c6: addr2: 0x8b18
-msr: 0x000001c8: desc: 0x0000543b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x015: addr2: 0x0054
-msr: 0x000001c9: desc: 0x0000243b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x009: addr2: 0x0024
-msr: 0x000001d9: desc: 0x079fe43b: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x7f9: addr2: 0x9fe4
-msr: 0x000001db: desc: 0x3100263d: mode:  N: chkproc: U3740: rdproc: U30c4: addr1: 0x009: addr2: 0x0024
-msr: 0x000001dc: desc: 0x3240263d: mode:  N: chkproc: U3740: rdproc: U30c8: addr1: 0x009: addr2: 0x4024
-msr: 0x000001dd: desc: 0x1c0177bd: mode:  N: chkproc: U3770: rdproc: U3070: addr1: 0x05d: addr2: 0x0174
-msr: 0x000001de: desc: 0x0101783d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x05e: addr2: 0x0178
-msr: 0x000001df: desc: 0x078b7c0d: mode: JE: chkproc: U3700: rdproc: U301c: addr1: 0x2df: addr2: 0x8b7c
-msr: 0x000001e3: desc: 0x0c008fb3: mode:  S: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x000001e6: desc: 0x338b9a7b: mode:  N: chkproc: U3748: rdproc: U30cc: addr1: 0x2e6: addr2: 0x8b98
-msr: 0x000001f0: desc: 0x3415c83b: mode:  N: chkproc: U3700: rdproc: U30d0: addr1: 0x572: addr2: 0x15c8
-msr: 0x000001f2: desc: 0x0015c83b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x572: addr2: 0x15c8
-msr: 0x000001f3: desc: 0x0015cc3b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x573: addr2: 0x15cc
-msr: 0x000001f4: desc: 0x0015d237: mode:  S: chkproc: U3740: rdproc: U3000: addr1: 0x574: addr2: 0x15d0
-msr: 0x000001f5: desc: 0x0015d637: mode:  S: chkproc: U3740: rdproc: U3000: addr1: 0x575: addr2: 0x15d4
-msr: 0x000001fb: desc: 0x0c01dfbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x077: addr2: 0x01dc
-msr: 0x000001fc: desc: 0x3747f2bb: mode:  N: chkproc: U3750: rdproc: U30dc: addr1: 0x1fc: addr2: 0x47f0
-msr: 0x00000200: desc: 0x0d14023f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x500: addr2: 0x1400
-msr: 0x00000201: desc: 0x0014043f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x501: addr2: 0x1404
-msr: 0x00000202: desc: 0x0d140a3f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x502: addr2: 0x1408
-msr: 0x00000203: desc: 0x00140c3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x503: addr2: 0x140c
-msr: 0x00000204: desc: 0x0d54123f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x504: addr2: 0x5410
-msr: 0x00000205: desc: 0x0054143f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x505: addr2: 0x5414
-msr: 0x00000206: desc: 0x0d541a3f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x506: addr2: 0x5418
-msr: 0x00000207: desc: 0x00541c3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x507: addr2: 0x541c
-msr: 0x00000208: desc: 0x0d54223f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x508: addr2: 0x5420
-msr: 0x00000209: desc: 0x0054243f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x509: addr2: 0x5424
-msr: 0x0000020a: desc: 0x0d542a3f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x50a: addr2: 0x5428
-msr: 0x0000020b: desc: 0x00542c3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x50b: addr2: 0x542c
-msr: 0x0000020c: desc: 0x0d54323f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x50c: addr2: 0x5430
-msr: 0x0000020d: desc: 0x0054343f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x50d: addr2: 0x5434
-msr: 0x0000020e: desc: 0x0d543a3f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x50e: addr2: 0x5438
-msr: 0x0000020f: desc: 0x00543c3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x50f: addr2: 0x543c
-msr: 0x00000210: desc: 0x0d14823f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x520: addr2: 0x1480
-msr: 0x00000211: desc: 0x0014843f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x521: addr2: 0x1484
-msr: 0x00000212: desc: 0x0d148a3f: mode:  N: chkproc: U3740: rdproc: U3034: addr1: 0x522: addr2: 0x1488
-msr: 0x00000213: desc: 0x00148c3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x523: addr2: 0x148c
-msr: 0x00000250: desc: 0x0015403f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x550: addr2: 0x1540
-msr: 0x00000258: desc: 0x0055603f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x558: addr2: 0x5560
-msr: 0x00000259: desc: 0x0015643f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x559: addr2: 0x1564
-msr: 0x00000268: desc: 0x0055a03f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x568: addr2: 0x55a0
-msr: 0x00000269: desc: 0x0055a43f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x569: addr2: 0x55a4
-msr: 0x0000026a: desc: 0x0055a83f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x56a: addr2: 0x55a8
-msr: 0x0000026b: desc: 0x0055ac3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x56b: addr2: 0x55ac
-msr: 0x0000026c: desc: 0x0055b03f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x56c: addr2: 0x55b0
-msr: 0x0000026d: desc: 0x0055b43f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x56d: addr2: 0x55b4
-msr: 0x0000026e: desc: 0x0055b83f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x56e: addr2: 0x55b8
-msr: 0x0000026f: desc: 0x0055bc3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x56f: addr2: 0x55bc
-msr: 0x00000277: desc: 0x0015dc3f: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x577: addr2: 0x15dc
-msr: 0x00000280: desc: 0x6118403b: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x610: addr2: 0x1840
-msr: 0x00000281: desc: 0x07ce443b: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x391: addr2: 0xce44
-msr: 0x00000282: desc: 0x0018403b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x610: addr2: 0x1840
-msr: 0x00000283: desc: 0x6140043b: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x001: addr2: 0x4004
-msr: 0x000002e0: desc: 0x0c008fbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0x000002ff: desc: 0x0015fc3b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x57f: addr2: 0x15fc
-msr: 0x00000300: desc: 0x6650a01d: mode:  E: chkproc: U3700: rdproc: U3198: addr1: 0x428: addr2: 0x50a0
-msr: 0x00000301: desc: 0x6650a81d: mode:  E: chkproc: U3700: rdproc: U3198: addr1: 0x42a: addr2: 0x50a8
-msr: 0x00000309: desc: 0x078984ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x261: addr2: 0x8984
-msr: 0x0000030a: desc: 0x078994ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x265: addr2: 0x8994
-msr: 0x0000030b: desc: 0x0789a4ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x269: addr2: 0x89a4
-msr: 0x00000345: desc: 0x020000fb: mode:  N: chkproc: U3718: rdproc: U3008: addr1: 0x000: addr2: 0x0000
-msr: 0x0000038d: desc: 0x07c834fb: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x20d: addr2: 0xc834
-msr: 0x0000038e: desc: 0x06883a7d: mode:  N: chkproc: U3748: rdproc: U3018: addr1: 0x20e: addr2: 0x8838
-msr: 0x0000038f: desc: 0x07c83cff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x20f: addr2: 0xc83c
-msr: 0x00000390: desc: 0x6188403f: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x210: addr2: 0x8840
-msr: 0x00000391: desc: 0x61c8443f: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x211: addr2: 0xc844
-msr: 0x00000392: desc: 0x078848fd: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x212: addr2: 0x8848
-msr: 0x000003f1: desc: 0x001fc4fb: mode:  N: chkproc: U3718: rdproc: U3000: addr1: 0x7f1: addr2: 0x1fc4
-msr: 0x000003f8: desc: 0x6d487bfd: mode:  N: chkproc: U3778: rdproc: U31b4: addr1: 0x21e: addr2: 0x4878
-msr: 0x000003f9: desc: 0x6d4883fd: mode:  N: chkproc: U3778: rdproc: U31b4: addr1: 0x220: addr2: 0x4880
-msr: 0x000003fa: desc: 0x6d488bfd: mode:  N: chkproc: U3778: rdproc: U31b4: addr1: 0x222: addr2: 0x4888
-msr: 0x000003fc: desc: 0x6d57aafd: mode:  N: chkproc: U3758: rdproc: U31b4: addr1: 0x5ea: addr2: 0x57a8
-msr: 0x000003fd: desc: 0x6d17b2fd: mode:  N: chkproc: U3758: rdproc: U31b4: addr1: 0x5ec: addr2: 0x17b0
-msr: 0x000003fe: desc: 0x6100003d: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000
-msr: 0x00000400: desc: 0x078e0339: mode:  N: chkproc: U3760: rdproc: U301c: addr1: 0x380: addr2: 0x8e00
-msr: 0x00000401: desc: 0x698e067d: mode:  N: chkproc: U3748: rdproc: U31a4: addr1: 0x381: addr2: 0x8e04
-msr: 0x00000402: desc: 0x078e083d: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x382: addr2: 0x8e08
-msr: 0x00000404: desc: 0x07ce1339: mode:  N: chkproc: U3760: rdproc: U301c: addr1: 0x384: addr2: 0xce10
-msr: 0x00000405: desc: 0x69ce167d: mode:  N: chkproc: U3748: rdproc: U31a4: addr1: 0x385: addr2: 0xce14
-msr: 0x00000406: desc: 0x07ce183d: mode:  N: chkproc: U3700: rdproc: U301c: addr1: 0x386: addr2: 0xce18
-msr: 0x00000408: desc: 0x00182339: mode:  N: chkproc: U3760: rdproc: U3000: addr1: 0x608: addr2: 0x1820
-msr: 0x00000409: desc: 0x6918263d: mode:  N: chkproc: U3740: rdproc: U31a4: addr1: 0x609: addr2: 0x1824
-msr: 0x0000040a: desc: 0x0018283d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x60a: addr2: 0x1828
-msr: 0x0000040c: desc: 0x00443339: mode:  N: chkproc: U3760: rdproc: U3000: addr1: 0x10c: addr2: 0x4430
-msr: 0x0000040d: desc: 0x6944363d: mode:  N: chkproc: U3740: rdproc: U31a4: addr1: 0x10d: addr2: 0x4434
-msr: 0x0000040e: desc: 0x0044383d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x10e: addr2: 0x4438
-msr: 0x00000480: desc: 0x0200003d: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000
-msr: 0x00000481: desc: 0x3840057d: mode:  N: chkproc: U3728: rdproc: U30e0: addr1: 0x001: addr2: 0x4004
-msr: 0x00000482: desc: 0x0200003d: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000
-msr: 0x00000483: desc: 0x3940057d: mode:  N: chkproc: U3728: rdproc: U30e4: addr1: 0x001: addr2: 0x4004
-msr: 0x00000484: desc: 0x3a40117d: mode:  N: chkproc: U3728: rdproc: U30e8: addr1: 0x004: addr2: 0x4010
-msr: 0x00000485: desc: 0x3b401579: mode:  N: chkproc: U3728: rdproc: U30ec: addr1: 0x005: addr2: 0x4014
-msr: 0x00000486: desc: 0x0240103d: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x004: addr2: 0x4010
-msr: 0x00000487: desc: 0x0240143b: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x005: addr2: 0x4014
-msr: 0x00000488: desc: 0x0200203b: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x008: addr2: 0x0020
-msr: 0x00000489: desc: 0x3c41c57d: mode:  N: chkproc: U3728: rdproc: U30f0: addr1: 0x071: addr2: 0x41c4
-msr: 0x0000048a: desc: 0x0200003d: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000
-msr: 0x0000048b: desc: 0x3d41c57d: mode:  N: chkproc: U3728: rdproc: U30f4: addr1: 0x071: addr2: 0x41c4
-msr: 0x0000048c: desc: 0x3e73517d: mode:  N: chkproc: U3728: rdproc: U30f8: addr1: 0xcd4: addr2: 0x7350
-msr: 0x0000048d: desc: 0x3840157d: mode:  N: chkproc: U3728: rdproc: U30e0: addr1: 0x005: addr2: 0x4014
-msr: 0x0000048e: desc: 0x0240103d: mode:  N: chkproc: U3700: rdproc: U3008: addr1: 0x004: addr2: 0x4010
-msr: 0x0000048f: desc: 0x39401d7d: mode:  N: chkproc: U3728: rdproc: U30e4: addr1: 0x007: addr2: 0x401c
-msr: 0x00000490: desc: 0x3a00017d: mode:  N: chkproc: U3728: rdproc: U30e8: addr1: 0x000: addr2: 0x0000
-msr: 0x00000491: desc: 0x3f40057b: mode:  N: chkproc: U3728: rdproc: U30fc: addr1: 0x001: addr2: 0x4004
-msr: 0x000004c1: desc: 0x079f80ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x7e0: addr2: 0x9f80
-msr: 0x000004c2: desc: 0x078990ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x264: addr2: 0x8990
-msr: 0x000004c3: desc: 0x0789a0ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x268: addr2: 0x89a0
-msr: 0x000004c4: desc: 0x07c9b0ff: mode:  N: chkproc: U3718: rdproc: U301c: addr1: 0x26c: addr2: 0xc9b0
-msr: 0x000004e0: desc: 0x6650d433: mode:  S: chkproc: U3700: rdproc: U3198: addr1: 0x435: addr2: 0x50d4
-msr: 0x000004e9: desc: 0x0101641d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x059: addr2: 0x0164
-msr: 0x000004f0: desc: 0x0001c01b: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x070: addr2: 0x01c0
-msr: 0x00000500: desc: 0x0c50dabb: mode:  N: chkproc: U3750: rdproc: U3030: addr1: 0x436: addr2: 0x50d8
-msr: 0x00000503: desc: 0x44000ebb: mode:  N: chkproc: U3750: rdproc: U3110: addr1: 0x003: addr2: 0x000c
-msr: 0x00000504: desc: 0x0100100d: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x004: addr2: 0x0010
-msr: 0x00000505: desc: 0x0100140b: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x005: addr2: 0x0014
-msr: 0x00000510: desc: 0x0014700f: mode: JE: chkproc: U3700: rdproc: U3000: addr1: 0x51c: addr2: 0x1470
-msr: 0x00000511: desc: 0x0102300b: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x08c: addr2: 0x0230
-msr: 0x00000512: desc: 0x0100480b: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x012: addr2: 0x0048
-msr: 0x00000513: desc: 0x01004c2b: mode:  J: chkproc: U3700: rdproc: U3004: addr1: 0x013: addr2: 0x004c
-msr: 0x00000520: desc: 0x01014009: mode: JE: chkproc: U3700: rdproc: U3004: addr1: 0x050: addr2: 0x0140
-msr: 0x00000560: desc: 0x00040437: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x101: addr2: 0x0404
-msr: 0x00000561: desc: 0x00040835: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x102: addr2: 0x0408
-msr: 0x00000570: desc: 0x001fc037: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x7f0: addr2: 0x1fc0
-msr: 0x00000571: desc: 0x0002c437: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x0b1: addr2: 0x02c4
-msr: 0x00000572: desc: 0x01014837: mode:  S: chkproc: U3700: rdproc: U3004: addr1: 0x052: addr2: 0x0148
-msr: 0x00000580: desc: 0x00020035: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x080: addr2: 0x0200
-msr: 0x00000581: desc: 0x00420435: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x081: addr2: 0x4204
-msr: 0x00000582: desc: 0x00020835: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x082: addr2: 0x0208
-msr: 0x00000583: desc: 0x00420c35: mode:  S: chkproc: U3700: rdproc: U3000: addr1: 0x083: addr2: 0x420c
-msr: 0x00000600: desc: 0x0101803d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x060: addr2: 0x0180
-msr: 0x00000606: desc: 0x6647b93b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1ee: addr2: 0x47b8
-msr: 0x00000609: desc: 0x6140203b: mode:  N: chkproc: U3700: rdproc: U3184: addr1: 0x008: addr2: 0x4020
-msr: 0x0000060a: desc: 0x6648a93b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x22a: addr2: 0x48a8
-msr: 0x0000060b: desc: 0x6648ad3b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x22b: addr2: 0x48ac
-msr: 0x0000060c: desc: 0x6648b13b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x22c: addr2: 0x48b0
-msr: 0x0000060d: desc: 0x6d4873fd: mode:  N: chkproc: U3778: rdproc: U31b4: addr1: 0x21c: addr2: 0x4870
-msr: 0x00000610: desc: 0x6647813f: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1e0: addr2: 0x4780
-msr: 0x00000611: desc: 0x6647bd3b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1ef: addr2: 0x47bc
-msr: 0x00000613: desc: 0x6647553b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1d5: addr2: 0x4754
-msr: 0x00000614: desc: 0x6647b13d: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1ec: addr2: 0x47b0
-msr: 0x00000615: desc: 0x6647913f: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1e4: addr2: 0x4790
-msr: 0x00000618: desc: 0x6647613f: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1d8: addr2: 0x4760
-msr: 0x00000619: desc: 0x66474d3b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1d3: addr2: 0x474c
-msr: 0x0000061b: desc: 0x6647513b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1d4: addr2: 0x4750
-msr: 0x0000061d: desc: 0x6d489bfd: mode:  N: chkproc: U3778: rdproc: U31b4: addr1: 0x226: addr2: 0x4898
-msr: 0x00000630: desc: 0x6131813d: mode:  N: chkproc: U3720: rdproc: U3184: addr1: 0xc60: addr2: 0x3180
-msr: 0x00000631: desc: 0x6148a13d: mode:  N: chkproc: U3720: rdproc: U3184: addr1: 0x228: addr2: 0x48a0
-msr: 0x00000632: desc: 0x6d4893fd: mode:  N: chkproc: U3778: rdproc: U31b4: addr1: 0x224: addr2: 0x4890
-msr: 0x00000633: desc: 0x6648b53b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x22d: addr2: 0x48b4
-msr: 0x00000634: desc: 0x6648b93b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x22e: addr2: 0x48b8
-msr: 0x00000635: desc: 0x6648bd3b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x22f: addr2: 0x48bc
-msr: 0x00000639: desc: 0x6647a93b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1ea: addr2: 0x47a8
-msr: 0x00000641: desc: 0x6647ad3b: mode:  N: chkproc: U3720: rdproc: U3198: addr1: 0x1eb: addr2: 0x47ac
-msr: 0x00000660: desc: 0x6d17a2fd: mode:  N: chkproc: U3758: rdproc: U31b4: addr1: 0x5e8: addr2: 0x17a0
-msr: 0x00000680: desc: 0x1c00823d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x020: addr2: 0x0080
-msr: 0x00000681: desc: 0x1c40863d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x021: addr2: 0x4084
-msr: 0x00000682: desc: 0x1c008a3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x022: addr2: 0x0088
-msr: 0x00000683: desc: 0x1c408e3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x023: addr2: 0x408c
-msr: 0x00000684: desc: 0x1c40923d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x024: addr2: 0x4090
-msr: 0x00000685: desc: 0x1c40963d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x025: addr2: 0x4094
-msr: 0x00000686: desc: 0x1c409a3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x026: addr2: 0x4098
-msr: 0x00000687: desc: 0x1c409e3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x027: addr2: 0x409c
-msr: 0x00000688: desc: 0x1c40a23d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x028: addr2: 0x40a0
-msr: 0x00000689: desc: 0x1c40a63d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x029: addr2: 0x40a4
-msr: 0x0000068a: desc: 0x1c40aa3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x02a: addr2: 0x40a8
-msr: 0x0000068b: desc: 0x1c40ae3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x02b: addr2: 0x40ac
-msr: 0x0000068c: desc: 0x1c40b23d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x02c: addr2: 0x40b0
-msr: 0x0000068d: desc: 0x1c40b63d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x02d: addr2: 0x40b4
-msr: 0x0000068e: desc: 0x1c40ba3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x02e: addr2: 0x40b8
-msr: 0x0000068f: desc: 0x1c40be3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x02f: addr2: 0x40bc
-msr: 0x00000690: desc: 0x1c00c23d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x030: addr2: 0x00c0
-msr: 0x00000691: desc: 0x1c40c63d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x031: addr2: 0x40c4
-msr: 0x00000692: desc: 0x1c00ca3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x032: addr2: 0x00c8
-msr: 0x00000693: desc: 0x1c40ce3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x033: addr2: 0x40cc
-msr: 0x00000694: desc: 0x1c00d23d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x034: addr2: 0x00d0
-msr: 0x00000695: desc: 0x1c40d63d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x035: addr2: 0x40d4
-msr: 0x00000696: desc: 0x1c00da3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x036: addr2: 0x00d8
-msr: 0x00000697: desc: 0x1c40de3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x037: addr2: 0x40dc
-msr: 0x00000698: desc: 0x1c40e23d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x038: addr2: 0x40e0
-msr: 0x00000699: desc: 0x1c40e63d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x039: addr2: 0x40e4
-msr: 0x0000069a: desc: 0x1c00ea3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x03a: addr2: 0x00e8
-msr: 0x0000069b: desc: 0x1c40ee3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x03b: addr2: 0x40ec
-msr: 0x0000069c: desc: 0x1c40f23d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x03c: addr2: 0x40f0
-msr: 0x0000069d: desc: 0x1c40f63d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x03d: addr2: 0x40f4
-msr: 0x0000069e: desc: 0x1c00fa3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x03e: addr2: 0x00f8
-msr: 0x0000069f: desc: 0x1c40fe3d: mode:  N: chkproc: U3740: rdproc: U3070: addr1: 0x03f: addr2: 0x40fc
-msr: 0x000006c0: desc: 0x0001003d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x040: addr2: 0x0100
-msr: 0x000006c1: desc: 0x0001043d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x041: addr2: 0x0104
-msr: 0x000006c2: desc: 0x0001083d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x042: addr2: 0x0108
-msr: 0x000006c3: desc: 0x00010c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x043: addr2: 0x010c
-msr: 0x000006c4: desc: 0x0041103d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x044: addr2: 0x4110
-msr: 0x000006c5: desc: 0x0041143d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x045: addr2: 0x4114
-msr: 0x000006c6: desc: 0x0041183d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x046: addr2: 0x4118
-msr: 0x000006c7: desc: 0x00411c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x047: addr2: 0x411c
-msr: 0x000006c8: desc: 0x0041203d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x048: addr2: 0x4120
-msr: 0x000006c9: desc: 0x0041243d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x049: addr2: 0x4124
-msr: 0x000006ca: desc: 0x0041283d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x04a: addr2: 0x4128
-msr: 0x000006cb: desc: 0x00412c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x04b: addr2: 0x412c
-msr: 0x000006cc: desc: 0x0041303d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x04c: addr2: 0x4130
-msr: 0x000006cd: desc: 0x0041343d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x04d: addr2: 0x4134
-msr: 0x000006ce: desc: 0x0041383d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x04e: addr2: 0x4138
-msr: 0x000006cf: desc: 0x00413c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x04f: addr2: 0x413c
-msr: 0x000006d0: desc: 0x0001403d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x050: addr2: 0x0140
-msr: 0x000006d1: desc: 0x0001443d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x051: addr2: 0x0144
-msr: 0x000006d2: desc: 0x0001483d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x052: addr2: 0x0148
-msr: 0x000006d3: desc: 0x00014c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x053: addr2: 0x014c
-msr: 0x000006d4: desc: 0x0001503d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x054: addr2: 0x0150
-msr: 0x000006d5: desc: 0x0001543d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x055: addr2: 0x0154
-msr: 0x000006d6: desc: 0x0001583d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x056: addr2: 0x0158
-msr: 0x000006d7: desc: 0x00015c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x057: addr2: 0x015c
-msr: 0x000006d8: desc: 0x0041603d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x058: addr2: 0x4160
-msr: 0x000006d9: desc: 0x0001643d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x059: addr2: 0x0164
-msr: 0x000006da: desc: 0x0001683d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x05a: addr2: 0x0168
-msr: 0x000006db: desc: 0x00016c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x05b: addr2: 0x016c
-msr: 0x000006dc: desc: 0x0041703d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x05c: addr2: 0x4170
-msr: 0x000006dd: desc: 0x0001743d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x05d: addr2: 0x0174
-msr: 0x000006de: desc: 0x0001783d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x05e: addr2: 0x0178
-msr: 0x000006df: desc: 0x00017c3d: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x05f: addr2: 0x017c
-msr: 0x000006e0: desc: 0x0b0077bd: mode:  N: chkproc: U3770: rdproc: U302c: addr1: 0x01d: addr2: 0x0074
-msr: 0x00000800: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000801: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000802: desc: 0x078a09bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x282: addr2: 0x8a08
-msr: 0x00000803: desc: 0x078a0dbb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x283: addr2: 0x8a0c
-msr: 0x00000804: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000805: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000806: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000807: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000808: desc: 0x078a21fb: mode:  N: chkproc: U3738: rdproc: U301c: addr1: 0x288: addr2: 0x8a20
-msr: 0x00000809: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000080a: desc: 0x498a29bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x28a: addr2: 0x8a28
-msr: 0x0000080b: desc: 0x608a2dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x28b: addr2: 0x8a2c
-msr: 0x0000080c: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000080d: desc: 0x078a35bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x28d: addr2: 0x8a34
-msr: 0x0000080e: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000080f: desc: 0x078a3dbb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x28f: addr2: 0x8a3c
-msr: 0x00000810: desc: 0x498a41bd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x290: addr2: 0x8a40
-msr: 0x00000811: desc: 0x498a41bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x290: addr2: 0x8a40
-msr: 0x00000812: desc: 0x498a45bd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x291: addr2: 0x8a44
-msr: 0x00000813: desc: 0x498a45bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x291: addr2: 0x8a44
-msr: 0x00000814: desc: 0x498a49bd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x292: addr2: 0x8a48
-msr: 0x00000815: desc: 0x498a49bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x292: addr2: 0x8a48
-msr: 0x00000816: desc: 0x498a4dbd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x293: addr2: 0x8a4c
-msr: 0x00000817: desc: 0x498a4dbb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x293: addr2: 0x8a4c
-msr: 0x00000818: desc: 0x03ca51bd: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x294: addr2: 0xca50
-msr: 0x00000819: desc: 0x038a51bb: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x294: addr2: 0x8a50
-msr: 0x0000081a: desc: 0x038a55bd: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x295: addr2: 0x8a54
-msr: 0x0000081b: desc: 0x038a55bb: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x295: addr2: 0x8a54
-msr: 0x0000081c: desc: 0x03ca59bd: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x296: addr2: 0xca58
-msr: 0x0000081d: desc: 0x038a59bb: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x296: addr2: 0x8a58
-msr: 0x0000081e: desc: 0x038a5dbd: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x297: addr2: 0x8a5c
-msr: 0x0000081f: desc: 0x038a5dbb: mode:  N: chkproc: U3730: rdproc: U300c: addr1: 0x297: addr2: 0x8a5c
-msr: 0x00000820: desc: 0x498a61bd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x298: addr2: 0x8a60
-msr: 0x00000821: desc: 0x498a61bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x298: addr2: 0x8a60
-msr: 0x00000822: desc: 0x498a65bd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x299: addr2: 0x8a64
-msr: 0x00000823: desc: 0x498a65bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x299: addr2: 0x8a64
-msr: 0x00000824: desc: 0x498a69bd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x29a: addr2: 0x8a68
-msr: 0x00000825: desc: 0x498a69bb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x29a: addr2: 0x8a68
-msr: 0x00000826: desc: 0x498a6dbd: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x29b: addr2: 0x8a6c
-msr: 0x00000827: desc: 0x498a6dbb: mode:  N: chkproc: U3730: rdproc: U3124: addr1: 0x29b: addr2: 0x8a6c
-msr: 0x00000828: desc: 0x078b95bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2e5: addr2: 0x8b94
-msr: 0x00000829: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000082a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000082b: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000082c: desc: 0x600085bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x021: addr2: 0x0084
-msr: 0x0000082d: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000082e: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000082f: desc: 0x078ba1bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2e8: addr2: 0x8ba0
-msr: 0x00000830: desc: 0x078b9dbf: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2e7: addr2: 0x8b9c
-msr: 0x00000831: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000832: desc: 0x078ac9bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b2: addr2: 0x8ac8
-msr: 0x00000833: desc: 0x078acdbb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b3: addr2: 0x8acc
-msr: 0x00000834: desc: 0x078ad1bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b4: addr2: 0x8ad0
-msr: 0x00000835: desc: 0x078ad5bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b5: addr2: 0x8ad4
-msr: 0x00000836: desc: 0x078ad9bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b6: addr2: 0x8ad8
-msr: 0x00000837: desc: 0x078addbb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b7: addr2: 0x8adc
-msr: 0x00000838: desc: 0x07cae1bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2b8: addr2: 0xcae0
-msr: 0x00000839: desc: 0x4b8be5bb: mode:  N: chkproc: U3730: rdproc: U312c: addr1: 0x2f9: addr2: 0x8be4
-msr: 0x0000083a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000083b: desc: 0x608afdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc
-msr: 0x0000083c: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x0000083d: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x0000083e: desc: 0x078af9bb: mode:  N: chkproc: U3730: rdproc: U301c: addr1: 0x2be: addr2: 0x8af8
-msr: 0x0000083f: desc: 0x608afdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc
-msr: 0x00000840: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000841: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000842: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x00000843: desc: 0x60000dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c
-msr: 0x00000844: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000845: desc: 0x600805bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x201: addr2: 0x0804
-msr: 0x00000846: desc: 0x600809bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x202: addr2: 0x0808
-msr: 0x00000847: desc: 0x60080dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x203: addr2: 0x080c
-msr: 0x00000848: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000849: desc: 0x608b05bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2c1: addr2: 0x8b04
-msr: 0x0000084a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000084b: desc: 0x608b2dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2cb: addr2: 0x8b2c
-msr: 0x0000084c: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000084d: desc: 0x600105bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x041: addr2: 0x0104
-msr: 0x0000084e: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x0000084f: desc: 0x601fbdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc
-msr: 0x00000850: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000851: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000852: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000853: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000854: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000855: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000856: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000857: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000858: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x00000859: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x0000085a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000085b: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x0000085c: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x0000085d: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x0000085e: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x0000085f: desc: 0x601fbdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc
-msr: 0x00000860: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000861: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000862: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x00000863: desc: 0x60000dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c
-msr: 0x00000864: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000865: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000866: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x00000867: desc: 0x60000dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c
-msr: 0x00000868: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000869: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000086a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000086b: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000086c: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000086d: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000086e: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x0000086f: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x00000870: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000871: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000872: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000873: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000874: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000875: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000876: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000877: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000878: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x00000879: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x0000087a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000087b: desc: 0x608afdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc
-msr: 0x0000087c: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x0000087d: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x0000087e: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x0000087f: desc: 0x609ffdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ff: addr2: 0x9ffc
-msr: 0x00000880: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000881: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000882: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000883: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x00000884: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000885: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000886: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000887: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x00000888: desc: 0x600021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x0020
-msr: 0x00000889: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000088a: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000088b: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x0000088c: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000088d: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000088e: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000088f: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000890: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000891: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x00000892: desc: 0x600045bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044
-msr: 0x00000893: desc: 0x600045bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044
-msr: 0x00000894: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x00000895: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x00000896: desc: 0x60004dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c
-msr: 0x00000897: desc: 0x60004dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c
-msr: 0x00000898: desc: 0x604021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020
-msr: 0x00000899: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x0000089a: desc: 0x600045bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044
-msr: 0x0000089b: desc: 0x600045bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044
-msr: 0x0000089c: desc: 0x604009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x4008
-msr: 0x0000089d: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x0000089e: desc: 0x60004dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c
-msr: 0x0000089f: desc: 0x60004dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c
-msr: 0x000008a0: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008a1: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008a2: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008a3: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008a4: desc: 0x600009bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008
-msr: 0x000008a5: desc: 0x60000dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c
-msr: 0x000008a6: desc: 0x60000dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c
-msr: 0x000008a7: desc: 0x60000dbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c
-msr: 0x000008a8: desc: 0x6000a5bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x029: addr2: 0x00a4
-msr: 0x000008a9: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x000008aa: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008ab: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x000008ac: desc: 0x600085bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x021: addr2: 0x0084
-msr: 0x000008ad: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008ae: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008af: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008b0: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008b1: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008b2: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008b3: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008b4: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008b5: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008b6: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008b7: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008b8: desc: 0x604021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020
-msr: 0x000008b9: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008ba: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008bb: desc: 0x608afdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc
-msr: 0x000008bc: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x000008bd: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008be: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008bf: desc: 0x608afdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc
-msr: 0x000008c0: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008c1: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008c2: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008c3: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008c4: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x000008c5: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x000008c6: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x000008c7: desc: 0x600801bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800
-msr: 0x000008c8: desc: 0x600021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x0020
-msr: 0x000008c9: desc: 0x608a05bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x281: addr2: 0x8a04
-msr: 0x000008ca: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008cb: desc: 0x608a05bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x281: addr2: 0x8a04
-msr: 0x000008cc: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008cd: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008ce: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x000008cf: desc: 0x601fbdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc
-msr: 0x000008d0: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d1: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d2: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d3: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d4: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d5: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d6: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d7: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008d8: desc: 0x604021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020
-msr: 0x000008d9: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008da: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008db: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008dc: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x000008dd: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008de: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x000008df: desc: 0x601fbdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc
-msr: 0x000008e0: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008e1: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008e2: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008e3: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008e4: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008e5: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008e6: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008e7: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008e8: desc: 0x600021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x0020
-msr: 0x000008e9: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x000008ea: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008eb: desc: 0x608a01bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00
-msr: 0x000008ec: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008ed: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008ee: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x000008ef: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x000008f0: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008f1: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008f2: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008f3: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008f4: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008f5: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008f6: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008f7: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008f8: desc: 0x604021bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020
-msr: 0x000008f9: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008fa: desc: 0x600001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000
-msr: 0x000008fb: desc: 0x608afdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc
-msr: 0x000008fc: desc: 0x604001bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000
-msr: 0x000008fd: desc: 0x600005bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004
-msr: 0x000008fe: desc: 0x601fb9bb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x000008ff: desc: 0x609ffdbb: mode:  N: chkproc: U3730: rdproc: U3180: addr1: 0x7ff: addr2: 0x9ffc
-msr: 0x00000900: desc: 0x01016c1f: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x05b: addr2: 0x016c
-msr: 0x00000902: desc: 0x0000701b: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x01c: addr2: 0x0070
-msr: 0x00000903: desc: 0x5000f399: mode:  E: chkproc: U3770: rdproc: U3140: addr1: 0x03c: addr2: 0x00f0
-msr: 0x00000904: desc: 0x0c1b0e1d: mode:  E: chkproc: U3740: rdproc: U3030: addr1: 0x6c3: addr2: 0x1b0c
-msr: 0x00000905: desc: 0x010a141d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x285: addr2: 0x0a14
-msr: 0x00000906: desc: 0x010a181d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x286: addr2: 0x0a18
-msr: 0x00000908: desc: 0x5124161d: mode:  E: chkproc: U3740: rdproc: U3144: addr1: 0x905: addr2: 0x2414
-msr: 0x00000909: desc: 0x0120241d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x809: addr2: 0x2024
-msr: 0x0000090a: desc: 0x0120281d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x80a: addr2: 0x2028
-msr: 0x0000090b: desc: 0x01202c1d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x80b: addr2: 0x202c
-msr: 0x0000091b: desc: 0x01006c1d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x01b: addr2: 0x006c
-msr: 0x00000920: desc: 0x01008019: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x020: addr2: 0x0080
-msr: 0x00000924: desc: 0x0100901b: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x024: addr2: 0x0090
-msr: 0x00000925: desc: 0x568a7e5f: mode:  E: chkproc: U3748: rdproc: U3158: addr1: 0x29f: addr2: 0x8a7c
-msr: 0x00000933: desc: 0x0100cc1d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x033: addr2: 0x00cc
-msr: 0x00000934: desc: 0x0100d01b: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x034: addr2: 0x00d0
-msr: 0x00000937: desc: 0x078bdc1b: mode:  E: chkproc: U3700: rdproc: U301c: addr1: 0x2f7: addr2: 0x8bdc
-msr: 0x00000938: desc: 0x07cbe01b: mode:  E: chkproc: U3700: rdproc: U301c: addr1: 0x2f8: addr2: 0xcbe0
-msr: 0x00000939: desc: 0x0100e41b: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x039: addr2: 0x00e4
-msr: 0x0000093a: desc: 0x0200001d: mode:  E: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000
-msr: 0x0000093e: desc: 0x0100f81d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x03e: addr2: 0x00f8
-msr: 0x0000093f: desc: 0x6600041b: mode:  E: chkproc: U3700: rdproc: U3198: addr1: 0x001: addr2: 0x0004
-msr: 0x00000940: desc: 0x0015001d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x540: addr2: 0x1500
-msr: 0x00000941: desc: 0x0015041d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x541: addr2: 0x1504
-msr: 0x00000942: desc: 0x0015081d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x542: addr2: 0x1508
-msr: 0x00000943: desc: 0x00150c1d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x543: addr2: 0x150c
-msr: 0x00000949: desc: 0x0101241d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x049: addr2: 0x0124
-msr: 0x0000094a: desc: 0x0014781d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x51e: addr2: 0x1478
-msr: 0x0000094c: desc: 0x0101301d: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x04c: addr2: 0x0130
-msr: 0x00000951: desc: 0x66003c1b: mode:  E: chkproc: U3700: rdproc: U3198: addr1: 0x00f: addr2: 0x003c
-msr: 0x00000952: desc: 0x0d50da9b: mode:  E: chkproc: U3750: rdproc: U3034: addr1: 0x436: addr2: 0x50d8
-msr: 0x00000953: desc: 0x0c04161b: mode:  E: chkproc: U3740: rdproc: U3030: addr1: 0x105: addr2: 0x0414
-msr: 0x00000955: desc: 0x0015541f: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x555: addr2: 0x1554
-msr: 0x00000956: desc: 0x0015581f: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x556: addr2: 0x1558
-msr: 0x00000957: desc: 0x00155c1f: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x557: addr2: 0x155c
-msr: 0x00000958: desc: 0x0141601f: mode:  E: chkproc: U3700: rdproc: U3004: addr1: 0x058: addr2: 0x4160
-msr: 0x00000959: desc: 0x5c14661b: mode:  E: chkproc: U3740: rdproc: U3170: addr1: 0x519: addr2: 0x1464
-msr: 0x0000095e: desc: 0x001fb81b: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x7ee: addr2: 0x1fb8
-msr: 0x00000962: desc: 0x0015881d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x562: addr2: 0x1588
-msr: 0x00000963: desc: 0x00158c1d: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x563: addr2: 0x158c
-msr: 0x00000964: desc: 0x0015901f: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x564: addr2: 0x1590
-msr: 0x00000965: desc: 0x0015941f: mode:  E: chkproc: U3700: rdproc: U3000: addr1: 0x565: addr2: 0x1594
-msr: 0x0000096b: desc: 0x0c88225b: mode:  E: chkproc: U3748: rdproc: U3030: addr1: 0x208: addr2: 0x8820
-msr: 0x0000096c: desc: 0x5d00001b: mode:  E: chkproc: U3700: rdproc: U3174: addr1: 0x000: addr2: 0x0000
-msr: 0x00000c8f: desc: 0x078fd037: mode:  S: chkproc: U3700: rdproc: U301c: addr1: 0x3f4: addr2: 0x8fd0
-msr: 0x00000d10: desc: 0x078fc037: mode:  S: chkproc: U3700: rdproc: U301c: addr1: 0x3f0: addr2: 0x8fc0
-msr: 0x00000d11: desc: 0x078fc437: mode:  S: chkproc: U3700: rdproc: U301c: addr1: 0x3f1: addr2: 0x8fc4
-msr: 0x00000d12: desc: 0x078fc837: mode:  S: chkproc: U3700: rdproc: U301c: addr1: 0x3f2: addr2: 0x8fc8
-msr: 0x00000d13: desc: 0x078fcc37: mode:  S: chkproc: U3700: rdproc: U301c: addr1: 0x3f3: addr2: 0x8fcc
-msr: 0x00000d90: desc: 0x5f1c0637: mode:  S: chkproc: U3740: rdproc: U317c: addr1: 0x701: addr2: 0x1c04
-msr: 0x00000da0: desc: 0x0c008fbb: mode:  N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c
-msr: 0xc0000080: desc: 0x001ffc3b: mode:  N: chkproc: U3700: rdproc: U3000: addr1: 0x7ff: addr2: 0x1ffc
-msr: 0xc0000081: desc: 0x0142043d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x081: addr2: 0x4204
-msr: 0xc0000082: desc: 0x0102083d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x082: addr2: 0x0208
-msr: 0xc0000083: desc: 0x01420c3d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x083: addr2: 0x420c
-msr: 0xc0000084: desc: 0x014a1039: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x284: addr2: 0x4a10
-msr: 0xc0000100: desc: 0x0800483d: mode:  N: chkproc: U3700: rdproc: U3020: addr1: 0x012: addr2: 0x0048
-msr: 0xc0000101: desc: 0x0900003d: mode:  N: chkproc: U3700: rdproc: U3024: addr1: 0x000: addr2: 0x0000
-msr: 0xc0000102: desc: 0x0100083d: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0x002: addr2: 0x0008
-msr: 0xc0000103: desc: 0x01fc0c3b: mode:  N: chkproc: U3700: rdproc: U3004: addr1: 0xf03: addr2: 0xfc0c
+msr: 0x00000000: desc: 0x3d078e083d: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x382: addr2: 0x8e08: fuse#: 0x3d
+msr: 0x00000001: desc: 0x3d698e067d: mode:   N: chkproc: U3748: rdproc: U31a4: addr1: 0x381: addr2: 0x8e04: fuse#: 0x3d
+msr: 0x00000006: desc: 0x3f0148183b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x206: addr2: 0x4818: fuse#: 0x3f
+msr: 0x00000010: desc: 0x3d1000ec3d: mode:   N: chkproc: U3700: rdproc: U3040: addr1: 0x03b: addr2: 0x00ec: fuse#: 0x3d
+msr: 0x00000017: desc: 0x3f6647113d: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1c4: addr2: 0x4710: fuse#: 0x3f
+msr: 0x00000017: desc: 0x006647103d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1c4: addr2: 0x4710: fuse#: 0x00
+msr: 0x0000001b: desc: 0x01001eec3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x7bb: addr2: 0x1eec: fuse#: 0x01
+msr: 0x0000002a: desc: 0x3f6100003d: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000002e: desc: 0x3b0ccb9a7b: mode:   N: chkproc: U3748: rdproc: U3030: addr1: 0x2e6: addr2: 0xcb98: fuse#: 0x3b
+msr: 0x00000033: desc: 0x030c04163b: mode:   N: chkproc: U3740: rdproc: U3030: addr1: 0x105: addr2: 0x0414: fuse#: 0x03
+msr: 0x00000034: desc: 0x3f0100d83b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x036: addr2: 0x00d8: fuse#: 0x3f
+msr: 0x00000035: desc: 0x3f140083bb: mode:   N: chkproc: U3770: rdproc: U3050: addr1: 0x020: addr2: 0x0080: fuse#: 0x3f
+msr: 0x00000039: desc: 0x3f078ae43b: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x2b9: addr2: 0x8ae4: fuse#: 0x3f
+msr: 0x0000003a: desc: 0x3f0100e83b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x03a: addr2: 0x00e8: fuse#: 0x3f
+msr: 0x0000003b: desc: 0x3f0100ec3d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x03b: addr2: 0x00ec: fuse#: 0x3f
+msr: 0x00000052: desc: 0x3d15008fb3: mode:   S: chkproc: U3770: rdproc: U3054: addr1: 0x023: addr2: 0x008c: fuse#: 0x3d
+msr: 0x00000070: desc: 0x2d1600002d: mode:   J: chkproc: U3700: rdproc: U3058: addr1: 0x000: addr2: 0x0000: fuse#: 0x2d
+msr: 0x00000071: desc: 0x2d1800002d: mode:   J: chkproc: U3700: rdproc: U3060: addr1: 0x000: addr2: 0x0000: fuse#: 0x2d
+msr: 0x00000072: desc: 0x2d1901c82d: mode:   J: chkproc: U3700: rdproc: U3064: addr1: 0x072: addr2: 0x01c8: fuse#: 0x2d
+msr: 0x00000073: desc: 0x2d1a00002d: mode:   J: chkproc: U3700: rdproc: U3068: addr1: 0x000: addr2: 0x0000: fuse#: 0x2d
+msr: 0x00000074: desc: 0x3d1b00002d: mode:   J: chkproc: U3700: rdproc: U306c: addr1: 0x000: addr2: 0x0000: fuse#: 0x3d
+msr: 0x0000007a: desc: 0x2b0c008fb3: mode:   F: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x2b
+msr: 0x0000007d: desc: 0x3d6100002d: mode:   J: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x3d
+msr: 0x0000007e: desc: 0x2d6100002d: mode:   J: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x2d
+msr: 0x0000008b: desc: 0x3f0c41c7bf: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x071: addr2: 0x41c4: fuse#: 0x3f
+msr: 0x0000009b: desc: 0x3d01422c3b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x08b: addr2: 0x422c: fuse#: 0x3d
+msr: 0x0000009e: desc: 0x3d0101c433: mode:   S: chkproc: U3700: rdproc: U3004: addr1: 0x071: addr2: 0x01c4: fuse#: 0x3d
+msr: 0x000000c1: desc: 0x3f079f80fd: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x7e0: addr2: 0x9f80: fuse#: 0x3f
+msr: 0x000000c2: desc: 0x3d078990fd: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x264: addr2: 0x8990: fuse#: 0x3d
+msr: 0x000000c3: desc: 0x3f0789a0fd: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x268: addr2: 0x89a0: fuse#: 0x3f
+msr: 0x000000c4: desc: 0x3f07c9b0fd: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x26c: addr2: 0xc9b0: fuse#: 0x3f
+msr: 0x000000ce: desc: 0x3f6647193d: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1c6: addr2: 0x4718: fuse#: 0x3f
+msr: 0x000000ce: desc: 0x006647183d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1c6: addr2: 0x4718: fuse#: 0x00
+msr: 0x000000e2: desc: 0x3f0101083b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x042: addr2: 0x0108: fuse#: 0x3f
+msr: 0x000000e4: desc: 0x3d0141103b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x044: addr2: 0x4110: fuse#: 0x3d
+msr: 0x000000e7: desc: 0x3f07c99c3d: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x267: addr2: 0xc99c: fuse#: 0x3f
+msr: 0x000000e8: desc: 0x3f0789603d: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x258: addr2: 0x8960: fuse#: 0x3f
+msr: 0x000000fe: desc: 0x3f2201dfbb: mode:   N: chkproc: U3770: rdproc: U3088: addr1: 0x077: addr2: 0x01dc: fuse#: 0x3f
+msr: 0x00000101: desc: 0x01001e782b: mode:   J: chkproc: U3700: rdproc: U3000: addr1: 0x79e: addr2: 0x1e78: fuse#: 0x01
+msr: 0x00000102: desc: 0x006100003b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000103: desc: 0x006100003b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000104: desc: 0x006100003b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000120: desc: 0x3f0c008fbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x3f
+msr: 0x00000121: desc: 0x0601022835: mode:   F: chkproc: U3700: rdproc: U3004: addr1: 0x08a: addr2: 0x0228: fuse#: 0x06
+msr: 0x00000122: desc: 0x00664c583d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x316: addr2: 0x4c58: fuse#: 0x00
+msr: 0x0000013c: desc: 0x130c5c0633: mode:   F: chkproc: U3740: rdproc: U3030: addr1: 0x701: addr2: 0x5c04: fuse#: 0x13
+msr: 0x00000140: desc: 0x3f0c008fbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x3f
+msr: 0x0000015c: desc: 0x3502400033: mode:   F: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x4000: fuse#: 0x35
+msr: 0x0000015d: desc: 0x350c008fb7: mode:   F: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x35
+msr: 0x0000015e: desc: 0x3528008fb7: mode:   F: chkproc: U3770: rdproc: U30a0: addr1: 0x023: addr2: 0x008c: fuse#: 0x35
+msr: 0x00000160: desc: 0x2d078b000d: mode:  JX: chkproc: U3700: rdproc: U301c: addr1: 0x2c0: addr2: 0x8b00: fuse#: 0x2d
+msr: 0x00000161: desc: 0x2d078b040d: mode:  JX: chkproc: U3700: rdproc: U301c: addr1: 0x2c1: addr2: 0x8b04: fuse#: 0x2d
+msr: 0x00000162: desc: 0x2f0101880d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x062: addr2: 0x0188: fuse#: 0x2f
+msr: 0x00000163: desc: 0x2f01018c0d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x063: addr2: 0x018c: fuse#: 0x2f
+msr: 0x00000164: desc: 0x0d0101900d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x064: addr2: 0x0190: fuse#: 0x0d
+msr: 0x00000165: desc: 0x0d0101940d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x065: addr2: 0x0194: fuse#: 0x0d
+msr: 0x00000166: desc: 0x0d0101980d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x066: addr2: 0x0198: fuse#: 0x0d
+msr: 0x00000167: desc: 0x0d01019c0d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x067: addr2: 0x019c: fuse#: 0x0d
+msr: 0x00000168: desc: 0x2f0101a00d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x068: addr2: 0x01a0: fuse#: 0x2f
+msr: 0x00000169: desc: 0x3f0101a40d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x069: addr2: 0x01a4: fuse#: 0x3f
+msr: 0x0000016a: desc: 0x2f0101a80d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x06a: addr2: 0x01a8: fuse#: 0x2f
+msr: 0x0000016b: desc: 0x3f0101ac0d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x06b: addr2: 0x01ac: fuse#: 0x3f
+msr: 0x0000016c: desc: 0x0f0101b00d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x06c: addr2: 0x01b0: fuse#: 0x0f
+msr: 0x0000016d: desc: 0x0d0101b40d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x06d: addr2: 0x01b4: fuse#: 0x0d
+msr: 0x0000016e: desc: 0x0d0101b80d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x06e: addr2: 0x01b8: fuse#: 0x0d
+msr: 0x0000016f: desc: 0x0d0101bc0d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x06f: addr2: 0x01bc: fuse#: 0x0d
+msr: 0x00000170: desc: 0x2b0200000b: mode:  JX: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000: fuse#: 0x2b
+msr: 0x00000171: desc: 0x2b0101c40b: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x071: addr2: 0x01c4: fuse#: 0x2b
+msr: 0x00000172: desc: 0x2d0101c82d: mode:   J: chkproc: U3700: rdproc: U3004: addr1: 0x072: addr2: 0x01c8: fuse#: 0x2d
+msr: 0x00000174: desc: 0x390101d039: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x074: addr2: 0x01d0: fuse#: 0x39
+msr: 0x00000175: desc: 0x3d0101d43d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x075: addr2: 0x01d4: fuse#: 0x3d
+msr: 0x00000176: desc: 0x3d0101d83d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x076: addr2: 0x01d8: fuse#: 0x3d
+msr: 0x00000179: desc: 0x3f2900d2bb: mode:   N: chkproc: U3750: rdproc: U30a4: addr1: 0x034: addr2: 0x00d0: fuse#: 0x3f
+msr: 0x0000017a: desc: 0x2f0c008fbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x2f
+msr: 0x0000017d: desc: 0x3d26000037: mode:   S: chkproc: U3700: rdproc: U3098: addr1: 0x000: addr2: 0x0000: fuse#: 0x3d
+msr: 0x0000017f: desc: 0x300d000ab3: mode:   F: chkproc: U3750: rdproc: U3034: addr1: 0x002: addr2: 0x0008: fuse#: 0x30
+msr: 0x00000186: desc: 0x3f079e58fb: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x796: addr2: 0x9e58: fuse#: 0x3f
+msr: 0x00000187: desc: 0x3f07de5cfb: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x797: addr2: 0xde5c: fuse#: 0x3f
+msr: 0x00000188: desc: 0x3f079e60fb: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x798: addr2: 0x9e60: fuse#: 0x3f
+msr: 0x00000189: desc: 0x3f07de64fb: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x799: addr2: 0xde64: fuse#: 0x3f
+msr: 0x00000198: desc: 0x3f2ac8c27f: mode:   N: chkproc: U3748: rdproc: U30a8: addr1: 0x230: addr2: 0xc8c0: fuse#: 0x3f
+msr: 0x00000199: desc: 0x242b4147bf: mode:   N: chkproc: U3770: rdproc: U30ac: addr1: 0x051: addr2: 0x4144: fuse#: 0x24
+msr: 0x0000019a: desc: 0x3f6646b93b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1ae: addr2: 0x46b8: fuse#: 0x3f
+msr: 0x0000019a: desc: 0x006646b83b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1ae: addr2: 0x46b8: fuse#: 0x00
+msr: 0x0000019b: desc: 0x3d66482d3b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x20b: addr2: 0x482c: fuse#: 0x3d
+msr: 0x0000019b: desc: 0x0066482c3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x20b: addr2: 0x482c: fuse#: 0x00
+msr: 0x0000019c: desc: 0x396648293b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x20a: addr2: 0x4828: fuse#: 0x39
+msr: 0x0000019c: desc: 0x006648283b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x20a: addr2: 0x4828: fuse#: 0x00
+msr: 0x0000019d: desc: 0x3f6140043b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x001: addr2: 0x4004: fuse#: 0x3f
+msr: 0x000001a0: desc: 0x092c0107bf: mode:   N: chkproc: U3770: rdproc: U30b0: addr1: 0x041: addr2: 0x0104: fuse#: 0x09
+msr: 0x000001a2: desc: 0x3f6647493b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1d2: addr2: 0x4748: fuse#: 0x3f
+msr: 0x000001a2: desc: 0x006647483b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1d2: addr2: 0x4748: fuse#: 0x00
+msr: 0x000001a4: desc: 0x052d04163b: mode:   N: chkproc: U3740: rdproc: U30b4: addr1: 0x105: addr2: 0x0414: fuse#: 0x05
+msr: 0x000001a6: desc: 0x3f078898ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x226: addr2: 0x8898: fuse#: 0x3f
+msr: 0x000001a7: desc: 0x3f07889cff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x227: addr2: 0x889c: fuse#: 0x3f
+msr: 0x000001a8: desc: 0x2b0c008fbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x2b
+msr: 0x000001aa: desc: 0x3f0d00c2bb: mode:   N: chkproc: U3750: rdproc: U3034: addr1: 0x030: addr2: 0x00c0: fuse#: 0x3f
+msr: 0x000001ad: desc: 0x3d6647693d: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1da: addr2: 0x4768: fuse#: 0x3d
+msr: 0x000001ad: desc: 0x006647683d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1da: addr2: 0x4768: fuse#: 0x00
+msr: 0x000001ae: desc: 0x3f6647713d: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1dc: addr2: 0x4770: fuse#: 0x3f
+msr: 0x000001ae: desc: 0x006647703d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1dc: addr2: 0x4770: fuse#: 0x00
+msr: 0x000001b0: desc: 0x3f2f46bebb: mode:   N: chkproc: U3750: rdproc: U30bc: addr1: 0x1af: addr2: 0x46bc: fuse#: 0x3f
+msr: 0x000001b1: desc: 0x0e6649f13b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x27c: addr2: 0x49f0: fuse#: 0x0e
+msr: 0x000001b1: desc: 0x006649f03b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x27c: addr2: 0x49f0: fuse#: 0x00
+msr: 0x000001b2: desc: 0x3f6649f53b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x27d: addr2: 0x49f4: fuse#: 0x3f
+msr: 0x000001b2: desc: 0x006649f43b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x27d: addr2: 0x49f4: fuse#: 0x00
+msr: 0x000001c6: desc: 0x3f078b183b: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x2c6: addr2: 0x8b18: fuse#: 0x3f
+msr: 0x000001c8: desc: 0x3d0000543b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x015: addr2: 0x0054: fuse#: 0x3d
+msr: 0x000001c9: desc: 0x3f0000243b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x009: addr2: 0x0024: fuse#: 0x3f
+msr: 0x000001d9: desc: 0x3f079fe43b: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x7f9: addr2: 0x9fe4: fuse#: 0x3f
+msr: 0x000001db: desc: 0x3d3100263d: mode:   N: chkproc: U3740: rdproc: U30c4: addr1: 0x009: addr2: 0x0024: fuse#: 0x3d
+msr: 0x000001dc: desc: 0x3d3240263d: mode:   N: chkproc: U3740: rdproc: U30c8: addr1: 0x009: addr2: 0x4024: fuse#: 0x3d
+msr: 0x000001dd: desc: 0x3d1c0177bd: mode:   N: chkproc: U3770: rdproc: U3070: addr1: 0x05d: addr2: 0x0174: fuse#: 0x3d
+msr: 0x000001de: desc: 0x3d0101783d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x05e: addr2: 0x0178: fuse#: 0x3d
+msr: 0x000001df: desc: 0x3d078b7c0d: mode:  JX: chkproc: U3700: rdproc: U301c: addr1: 0x2df: addr2: 0x8b7c: fuse#: 0x3d
+msr: 0x000001e3: desc: 0x3d0c008fb3: mode:   S: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x3d
+msr: 0x000001e6: desc: 0x3f338b9a7b: mode:   N: chkproc: U3748: rdproc: U30cc: addr1: 0x2e6: addr2: 0x8b98: fuse#: 0x3f
+msr: 0x000001f0: desc: 0x293415c83b: mode:   N: chkproc: U3700: rdproc: U30d0: addr1: 0x572: addr2: 0x15c8: fuse#: 0x29
+msr: 0x000001f2: desc: 0x3d0015c83b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x572: addr2: 0x15c8: fuse#: 0x3d
+msr: 0x000001f3: desc: 0x3d0015cc3b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x573: addr2: 0x15cc: fuse#: 0x3d
+msr: 0x000001f4: desc: 0x230015d237: mode:   F: chkproc: U3740: rdproc: U3000: addr1: 0x574: addr2: 0x15d0: fuse#: 0x23
+msr: 0x000001f5: desc: 0x230015d637: mode:   F: chkproc: U3740: rdproc: U3000: addr1: 0x575: addr2: 0x15d4: fuse#: 0x23
+msr: 0x000001fb: desc: 0x3f0c01dfbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x077: addr2: 0x01dc: fuse#: 0x3f
+msr: 0x000001fc: desc: 0x3f3747f2bb: mode:   N: chkproc: U3750: rdproc: U30dc: addr1: 0x1fc: addr2: 0x47f0: fuse#: 0x3f
+msr: 0x00000200: desc: 0x3f0d14023f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x500: addr2: 0x1400: fuse#: 0x3f
+msr: 0x00000201: desc: 0x3f0014043f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x501: addr2: 0x1404: fuse#: 0x3f
+msr: 0x00000202: desc: 0x3f0d140a3f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x502: addr2: 0x1408: fuse#: 0x3f
+msr: 0x00000203: desc: 0x3f00140c3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x503: addr2: 0x140c: fuse#: 0x3f
+msr: 0x00000204: desc: 0x3f0d54123f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x504: addr2: 0x5410: fuse#: 0x3f
+msr: 0x00000205: desc: 0x3f0054143f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x505: addr2: 0x5414: fuse#: 0x3f
+msr: 0x00000206: desc: 0x3f0d541a3f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x506: addr2: 0x5418: fuse#: 0x3f
+msr: 0x00000207: desc: 0x3f00541c3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x507: addr2: 0x541c: fuse#: 0x3f
+msr: 0x00000208: desc: 0x3f0d54223f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x508: addr2: 0x5420: fuse#: 0x3f
+msr: 0x00000209: desc: 0x3f0054243f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x509: addr2: 0x5424: fuse#: 0x3f
+msr: 0x0000020a: desc: 0x3f0d542a3f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x50a: addr2: 0x5428: fuse#: 0x3f
+msr: 0x0000020b: desc: 0x3f00542c3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x50b: addr2: 0x542c: fuse#: 0x3f
+msr: 0x0000020c: desc: 0x3f0d54323f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x50c: addr2: 0x5430: fuse#: 0x3f
+msr: 0x0000020d: desc: 0x3f0054343f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x50d: addr2: 0x5434: fuse#: 0x3f
+msr: 0x0000020e: desc: 0x3f0d543a3f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x50e: addr2: 0x5438: fuse#: 0x3f
+msr: 0x0000020f: desc: 0x3f00543c3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x50f: addr2: 0x543c: fuse#: 0x3f
+msr: 0x00000210: desc: 0x3f0d14823f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x520: addr2: 0x1480: fuse#: 0x3f
+msr: 0x00000211: desc: 0x3f0014843f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x521: addr2: 0x1484: fuse#: 0x3f
+msr: 0x00000212: desc: 0x3f0d148a3f: mode:   N: chkproc: U3740: rdproc: U3034: addr1: 0x522: addr2: 0x1488: fuse#: 0x3f
+msr: 0x00000213: desc: 0x3f00148c3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x523: addr2: 0x148c: fuse#: 0x3f
+msr: 0x00000250: desc: 0x3f0015403f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x550: addr2: 0x1540: fuse#: 0x3f
+msr: 0x00000258: desc: 0x3f0055603f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x558: addr2: 0x5560: fuse#: 0x3f
+msr: 0x00000259: desc: 0x3f0015643f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x559: addr2: 0x1564: fuse#: 0x3f
+msr: 0x00000268: desc: 0x2f0055a03f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x568: addr2: 0x55a0: fuse#: 0x2f
+msr: 0x00000269: desc: 0x2f0055a43f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x569: addr2: 0x55a4: fuse#: 0x2f
+msr: 0x0000026a: desc: 0x2f0055a83f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x56a: addr2: 0x55a8: fuse#: 0x2f
+msr: 0x0000026b: desc: 0x2f0055ac3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x56b: addr2: 0x55ac: fuse#: 0x2f
+msr: 0x0000026c: desc: 0x070055b03f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x56c: addr2: 0x55b0: fuse#: 0x07
+msr: 0x0000026d: desc: 0x070055b43f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x56d: addr2: 0x55b4: fuse#: 0x07
+msr: 0x0000026e: desc: 0x070055b83f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x56e: addr2: 0x55b8: fuse#: 0x07
+msr: 0x0000026f: desc: 0x070055bc3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x56f: addr2: 0x55bc: fuse#: 0x07
+msr: 0x00000277: desc: 0x370015dc3f: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x577: addr2: 0x15dc: fuse#: 0x37
+msr: 0x00000280: desc: 0x3f6118403b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x610: addr2: 0x1840: fuse#: 0x3f
+msr: 0x00000281: desc: 0x3f07ce443b: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x391: addr2: 0xce44: fuse#: 0x3f
+msr: 0x00000282: desc: 0x3f0018403b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x610: addr2: 0x1840: fuse#: 0x3f
+msr: 0x00000283: desc: 0x3f6140043b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x001: addr2: 0x4004: fuse#: 0x3f
+msr: 0x00000284: desc: 0x00664b403f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x2d0: addr2: 0x4b40: fuse#: 0x00
+msr: 0x00000285: desc: 0x006646303f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x18c: addr2: 0x4630: fuse#: 0x00
+msr: 0x00000286: desc: 0x00664f903f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x3e4: addr2: 0x4f90: fuse#: 0x00
+msr: 0x000002e0: desc: 0x3b0c008fbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x3b
+msr: 0x000002ff: desc: 0x3f0015fc3b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x57f: addr2: 0x15fc: fuse#: 0x3f
+msr: 0x00000300: desc: 0x2b6650a01d: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x428: addr2: 0x50a0: fuse#: 0x2b
+msr: 0x00000301: desc: 0x2b6650a81d: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x42a: addr2: 0x50a8: fuse#: 0x2b
+msr: 0x00000309: desc: 0x3f078984ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x261: addr2: 0x8984: fuse#: 0x3f
+msr: 0x0000030a: desc: 0x3f078994ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x265: addr2: 0x8994: fuse#: 0x3f
+msr: 0x0000030b: desc: 0x3f0789a4ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x269: addr2: 0x89a4: fuse#: 0x3f
+msr: 0x00000345: desc: 0x3f020000fb: mode:   N: chkproc: U3718: rdproc: U3008: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000038d: desc: 0x0f07c834fb: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x20d: addr2: 0xc834: fuse#: 0x0f
+msr: 0x0000038e: desc: 0x3f06883a7d: mode:   N: chkproc: U3748: rdproc: U3018: addr1: 0x20e: addr2: 0x8838: fuse#: 0x3f
+msr: 0x0000038f: desc: 0x3f07c83cff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x20f: addr2: 0xc83c: fuse#: 0x3f
+msr: 0x00000390: desc: 0x3f6188403f: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x210: addr2: 0x8840: fuse#: 0x3f
+msr: 0x00000391: desc: 0x3f61c8443f: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x211: addr2: 0xc844: fuse#: 0x3f
+msr: 0x00000392: desc: 0x3f078848fd: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x212: addr2: 0x8848: fuse#: 0x3f
+msr: 0x000003f1: desc: 0x28001fc4fb: mode:   N: chkproc: U3718: rdproc: U3000: addr1: 0x7f1: addr2: 0x1fc4: fuse#: 0x28
+msr: 0x000003f8: desc: 0x3f6d487bfd: mode:   N: chkproc: U3778: rdproc: U31b4: addr1: 0x21e: addr2: 0x4878: fuse#: 0x3f
+msr: 0x000003f8: desc: 0x006d487abd: mode:   N: chkproc: U3750: rdproc: U31b4: addr1: 0x21e: addr2: 0x4878: fuse#: 0x00
+msr: 0x000003f9: desc: 0x3f6d4883fd: mode:   N: chkproc: U3778: rdproc: U31b4: addr1: 0x220: addr2: 0x4880: fuse#: 0x3f
+msr: 0x000003f9: desc: 0x006d4882bd: mode:   N: chkproc: U3750: rdproc: U31b4: addr1: 0x220: addr2: 0x4880: fuse#: 0x00
+msr: 0x000003fa: desc: 0x3f6d488bfd: mode:   N: chkproc: U3778: rdproc: U31b4: addr1: 0x222: addr2: 0x4888: fuse#: 0x3f
+msr: 0x000003fa: desc: 0x006d488abd: mode:   N: chkproc: U3750: rdproc: U31b4: addr1: 0x222: addr2: 0x4888: fuse#: 0x00
+msr: 0x000003fc: desc: 0x3f6d57aafd: mode:   N: chkproc: U3758: rdproc: U31b4: addr1: 0x5ea: addr2: 0x57a8: fuse#: 0x3f
+msr: 0x000003fd: desc: 0x3d6d17b2fd: mode:   N: chkproc: U3758: rdproc: U31b4: addr1: 0x5ec: addr2: 0x17b0: fuse#: 0x3d
+msr: 0x000003fe: desc: 0x3f6100003d: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000400: desc: 0x3f078e0339: mode:   N: chkproc: U3760: rdproc: U301c: addr1: 0x380: addr2: 0x8e00: fuse#: 0x3f
+msr: 0x00000401: desc: 0x3f698e067d: mode:   N: chkproc: U3748: rdproc: U31a4: addr1: 0x381: addr2: 0x8e04: fuse#: 0x3f
+msr: 0x00000402: desc: 0x3f078e083d: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x382: addr2: 0x8e08: fuse#: 0x3f
+msr: 0x00000404: desc: 0x3b07ce1339: mode:   N: chkproc: U3760: rdproc: U301c: addr1: 0x384: addr2: 0xce10: fuse#: 0x3b
+msr: 0x00000405: desc: 0x0769ce167d: mode:   N: chkproc: U3748: rdproc: U31a4: addr1: 0x385: addr2: 0xce14: fuse#: 0x07
+msr: 0x00000406: desc: 0x3f07ce183d: mode:   N: chkproc: U3700: rdproc: U301c: addr1: 0x386: addr2: 0xce18: fuse#: 0x3f
+msr: 0x00000408: desc: 0x3900182339: mode:   N: chkproc: U3760: rdproc: U3000: addr1: 0x608: addr2: 0x1820: fuse#: 0x39
+msr: 0x00000409: desc: 0x3f6918263d: mode:   N: chkproc: U3740: rdproc: U31a4: addr1: 0x609: addr2: 0x1824: fuse#: 0x3f
+msr: 0x0000040a: desc: 0x3f0018283d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x60a: addr2: 0x1828: fuse#: 0x3f
+msr: 0x0000040c: desc: 0x0300443339: mode:   N: chkproc: U3760: rdproc: U3000: addr1: 0x10c: addr2: 0x4430: fuse#: 0x03
+msr: 0x0000040d: desc: 0x176944363d: mode:   N: chkproc: U3740: rdproc: U31a4: addr1: 0x10d: addr2: 0x4434: fuse#: 0x17
+msr: 0x0000040e: desc: 0x370044383d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x10e: addr2: 0x4438: fuse#: 0x37
+msr: 0x00000410: desc: 0x00664b237d: mode:   N: chkproc: U3768: rdproc: U3198: addr1: 0x2c8: addr2: 0x4b20: fuse#: 0x00
+msr: 0x00000411: desc: 0x00694b2abf: mode:   N: chkproc: U3750: rdproc: U31a4: addr1: 0x2ca: addr2: 0x4b28: fuse#: 0x00
+msr: 0x00000412: desc: 0x00664b303f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x2cc: addr2: 0x4b30: fuse#: 0x00
+msr: 0x00000413: desc: 0x00664b383d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x2ce: addr2: 0x4b38: fuse#: 0x00
+msr: 0x00000414: desc: 0x006646237d: mode:   N: chkproc: U3768: rdproc: U3198: addr1: 0x188: addr2: 0x4620: fuse#: 0x00
+msr: 0x00000415: desc: 0x0069462abd: mode:   N: chkproc: U3750: rdproc: U31a4: addr1: 0x18a: addr2: 0x4628: fuse#: 0x00
+msr: 0x00000416: desc: 0x006646e03d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1b8: addr2: 0x46e0: fuse#: 0x00
+msr: 0x00000417: desc: 0x006646e83d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1ba: addr2: 0x46e8: fuse#: 0x00
+msr: 0x00000418: desc: 0x00664f8b7d: mode:   N: chkproc: U3768: rdproc: U3198: addr1: 0x3e2: addr2: 0x4f88: fuse#: 0x00
+msr: 0x00000419: desc: 0x00694f82bd: mode:   N: chkproc: U3750: rdproc: U31a4: addr1: 0x3e0: addr2: 0x4f80: fuse#: 0x00
+msr: 0x0000041a: desc: 0x00664f983d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x3e6: addr2: 0x4f98: fuse#: 0x00
+msr: 0x00000480: desc: 0x3d0200003d: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000: fuse#: 0x3d
+msr: 0x00000481: desc: 0x1f3840057d: mode:   N: chkproc: U3728: rdproc: U30e0: addr1: 0x001: addr2: 0x4004: fuse#: 0x1f
+msr: 0x00000482: desc: 0x3f0200003d: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000483: desc: 0x3f3940057d: mode:   N: chkproc: U3728: rdproc: U30e4: addr1: 0x001: addr2: 0x4004: fuse#: 0x3f
+msr: 0x00000484: desc: 0x3f3a40117d: mode:   N: chkproc: U3728: rdproc: U30e8: addr1: 0x004: addr2: 0x4010: fuse#: 0x3f
+msr: 0x00000485: desc: 0x273b401579: mode:   N: chkproc: U3728: rdproc: U30ec: addr1: 0x005: addr2: 0x4014: fuse#: 0x27
+msr: 0x00000486: desc: 0x3d0240103d: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x004: addr2: 0x4010: fuse#: 0x3d
+msr: 0x00000487: desc: 0x3f0240143b: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x005: addr2: 0x4014: fuse#: 0x3f
+msr: 0x00000488: desc: 0x3b0200203b: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x008: addr2: 0x0020: fuse#: 0x3b
+msr: 0x00000489: desc: 0x3f3c41c57d: mode:   N: chkproc: U3728: rdproc: U30f0: addr1: 0x071: addr2: 0x41c4: fuse#: 0x3f
+msr: 0x0000048a: desc: 0x3f0200003d: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000048b: desc: 0x0d3d41c57d: mode:   N: chkproc: U3728: rdproc: U30f4: addr1: 0x071: addr2: 0x41c4: fuse#: 0x0d
+msr: 0x0000048c: desc: 0x053e73517d: mode:   N: chkproc: U3728: rdproc: U30f8: addr1: 0xcd4: addr2: 0x7350: fuse#: 0x05
+msr: 0x0000048d: desc: 0x173840157d: mode:   N: chkproc: U3728: rdproc: U30e0: addr1: 0x005: addr2: 0x4014: fuse#: 0x17
+msr: 0x0000048e: desc: 0x3f0240103d: mode:   N: chkproc: U3700: rdproc: U3008: addr1: 0x004: addr2: 0x4010: fuse#: 0x3f
+msr: 0x0000048f: desc: 0x3f39401d7d: mode:   N: chkproc: U3728: rdproc: U30e4: addr1: 0x007: addr2: 0x401c: fuse#: 0x3f
+msr: 0x00000490: desc: 0x3f3a00017d: mode:   N: chkproc: U3728: rdproc: U30e8: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000491: desc: 0x0b3f40057b: mode:   N: chkproc: U3728: rdproc: U30fc: addr1: 0x001: addr2: 0x4004: fuse#: 0x0b
+msr: 0x000004c1: desc: 0x3f079f80ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x7e0: addr2: 0x9f80: fuse#: 0x3f
+msr: 0x000004c2: desc: 0x3f078990ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x264: addr2: 0x8990: fuse#: 0x3f
+msr: 0x000004c3: desc: 0x3f0789a0ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x268: addr2: 0x89a0: fuse#: 0x3f
+msr: 0x000004c4: desc: 0x3f07c9b0ff: mode:   N: chkproc: U3718: rdproc: U301c: addr1: 0x26c: addr2: 0xc9b0: fuse#: 0x3f
+msr: 0x000004e0: desc: 0x286650d433: mode:   F: chkproc: U3700: rdproc: U3198: addr1: 0x435: addr2: 0x50d4: fuse#: 0x28
+msr: 0x000004e2: desc: 0x006651083d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x442: addr2: 0x5108: fuse#: 0x00
+msr: 0x000004e3: desc: 0x006651003d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x440: addr2: 0x5100: fuse#: 0x00
+msr: 0x000004e9: desc: 0x3f0101641d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x059: addr2: 0x0164: fuse#: 0x3f
+msr: 0x000004f0: desc: 0x3f0001c01b: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x070: addr2: 0x01c0: fuse#: 0x3f
+msr: 0x00000500: desc: 0x3f0c50dabb: mode:   N: chkproc: U3750: rdproc: U3030: addr1: 0x436: addr2: 0x50d8: fuse#: 0x3f
+msr: 0x00000503: desc: 0x2f44000ebb: mode:   N: chkproc: U3750: rdproc: U3110: addr1: 0x003: addr2: 0x000c: fuse#: 0x2f
+msr: 0x00000504: desc: 0x3f0100100d: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x004: addr2: 0x0010: fuse#: 0x3f
+msr: 0x00000505: desc: 0x3f0100140b: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x005: addr2: 0x0014: fuse#: 0x3f
+msr: 0x00000510: desc: 0x2f0014700f: mode:  JX: chkproc: U3700: rdproc: U3000: addr1: 0x51c: addr2: 0x1470: fuse#: 0x2f
+msr: 0x00000511: desc: 0x3f0102300b: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x08c: addr2: 0x0230: fuse#: 0x3f
+msr: 0x00000512: desc: 0x3f0100480b: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x012: addr2: 0x0048: fuse#: 0x3f
+msr: 0x00000513: desc: 0x3f01004c2b: mode:   J: chkproc: U3700: rdproc: U3004: addr1: 0x013: addr2: 0x004c: fuse#: 0x3f
+msr: 0x00000520: desc: 0x2f01014009: mode:  JX: chkproc: U3700: rdproc: U3004: addr1: 0x050: addr2: 0x0140: fuse#: 0x2f
+msr: 0x00000560: desc: 0x2e00040437: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x101: addr2: 0x0404: fuse#: 0x2e
+msr: 0x00000561: desc: 0x2e00040835: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x102: addr2: 0x0408: fuse#: 0x2e
+msr: 0x00000570: desc: 0x2e001fc037: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x7f0: addr2: 0x1fc0: fuse#: 0x2e
+msr: 0x00000571: desc: 0x2e0002c437: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x0b1: addr2: 0x02c4: fuse#: 0x2e
+msr: 0x00000572: desc: 0x2e01014837: mode:   F: chkproc: U3700: rdproc: U3004: addr1: 0x052: addr2: 0x0148: fuse#: 0x2e
+msr: 0x00000580: desc: 0x2e00020035: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x080: addr2: 0x0200: fuse#: 0x2e
+msr: 0x00000581: desc: 0x2e00420435: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x081: addr2: 0x4204: fuse#: 0x2e
+msr: 0x00000582: desc: 0x2e00020835: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x082: addr2: 0x0208: fuse#: 0x2e
+msr: 0x00000583: desc: 0x2e00420c35: mode:   F: chkproc: U3700: rdproc: U3000: addr1: 0x083: addr2: 0x420c: fuse#: 0x2e
+msr: 0x00000600: desc: 0x3f0101803d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x060: addr2: 0x0180: fuse#: 0x3f
+msr: 0x00000601: desc: 0x006647c03f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1f0: addr2: 0x47c0: fuse#: 0x00
+msr: 0x00000603: desc: 0x006646703f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x19c: addr2: 0x4670: fuse#: 0x00
+msr: 0x00000606: desc: 0x3f6647b93b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1ee: addr2: 0x47b8: fuse#: 0x3f
+msr: 0x00000606: desc: 0x006647b83b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1ee: addr2: 0x47b8: fuse#: 0x00
+msr: 0x00000609: desc: 0x3f6140203b: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x008: addr2: 0x4020: fuse#: 0x3f
+msr: 0x0000060a: desc: 0x3f6648a93b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x22a: addr2: 0x48a8: fuse#: 0x3f
+msr: 0x0000060a: desc: 0x006648a83b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x22a: addr2: 0x48a8: fuse#: 0x00
+msr: 0x0000060b: desc: 0x3f6648ad3b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x22b: addr2: 0x48ac: fuse#: 0x3f
+msr: 0x0000060b: desc: 0x006648ac3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x22b: addr2: 0x48ac: fuse#: 0x00
+msr: 0x0000060c: desc: 0x3f6648b13b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x22c: addr2: 0x48b0: fuse#: 0x3f
+msr: 0x0000060c: desc: 0x006648b03b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x22c: addr2: 0x48b0: fuse#: 0x00
+msr: 0x0000060d: desc: 0x3f6d4873fd: mode:   N: chkproc: U3778: rdproc: U31b4: addr1: 0x21c: addr2: 0x4870: fuse#: 0x3f
+msr: 0x0000060d: desc: 0x006d4872bd: mode:   N: chkproc: U3750: rdproc: U31b4: addr1: 0x21c: addr2: 0x4870: fuse#: 0x00
+msr: 0x00000610: desc: 0x3f6647813f: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1e0: addr2: 0x4780: fuse#: 0x3f
+msr: 0x00000610: desc: 0x006647803f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1e0: addr2: 0x4780: fuse#: 0x00
+msr: 0x00000611: desc: 0x3f6647bd3b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1ef: addr2: 0x47bc: fuse#: 0x3f
+msr: 0x00000611: desc: 0x006647bc3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1ef: addr2: 0x47bc: fuse#: 0x00
+msr: 0x00000613: desc: 0x3f6647553b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1d5: addr2: 0x4754: fuse#: 0x3f
+msr: 0x00000613: desc: 0x006647543b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1d5: addr2: 0x4754: fuse#: 0x00
+msr: 0x00000614: desc: 0x3f6647b13d: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1ec: addr2: 0x47b0: fuse#: 0x3f
+msr: 0x00000614: desc: 0x006647b03d: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1ec: addr2: 0x47b0: fuse#: 0x00
+msr: 0x00000615: desc: 0x3f6647913f: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1e4: addr2: 0x4790: fuse#: 0x3f
+msr: 0x00000615: desc: 0x006647903f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1e4: addr2: 0x4790: fuse#: 0x00
+msr: 0x00000618: desc: 0x3f6647613f: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1d8: addr2: 0x4760: fuse#: 0x3f
+msr: 0x00000618: desc: 0x006647603f: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1d8: addr2: 0x4760: fuse#: 0x00
+msr: 0x00000619: desc: 0x3f66474d3b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1d3: addr2: 0x474c: fuse#: 0x3f
+msr: 0x00000619: desc: 0x0066474c3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1d3: addr2: 0x474c: fuse#: 0x00
+msr: 0x0000061b: desc: 0x3f6647513b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1d4: addr2: 0x4750: fuse#: 0x3f
+msr: 0x0000061b: desc: 0x006647503b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1d4: addr2: 0x4750: fuse#: 0x00
+msr: 0x0000061d: desc: 0x3f6d489bfd: mode:   N: chkproc: U3778: rdproc: U31b4: addr1: 0x226: addr2: 0x4898: fuse#: 0x3f
+msr: 0x0000061d: desc: 0x006d489abd: mode:   N: chkproc: U3750: rdproc: U31b4: addr1: 0x226: addr2: 0x4898: fuse#: 0x00
+msr: 0x00000630: desc: 0x3f6131813d: mode:   N: chkproc: U3720: rdproc: U3184: addr1: 0xc60: addr2: 0x3180: fuse#: 0x3f
+msr: 0x00000630: desc: 0x006106303d: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x18c: addr2: 0x0630: fuse#: 0x00
+msr: 0x00000631: desc: 0x3f6148a13d: mode:   N: chkproc: U3720: rdproc: U3184: addr1: 0x228: addr2: 0x48a0: fuse#: 0x3f
+msr: 0x00000631: desc: 0x006148a03d: mode:   N: chkproc: U3700: rdproc: U3184: addr1: 0x228: addr2: 0x48a0: fuse#: 0x00
+msr: 0x00000632: desc: 0x3f6d4893fd: mode:   N: chkproc: U3778: rdproc: U31b4: addr1: 0x224: addr2: 0x4890: fuse#: 0x3f
+msr: 0x00000632: desc: 0x006d4892bd: mode:   N: chkproc: U3750: rdproc: U31b4: addr1: 0x224: addr2: 0x4890: fuse#: 0x00
+msr: 0x00000633: desc: 0x3f6648b53b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x22d: addr2: 0x48b4: fuse#: 0x3f
+msr: 0x00000633: desc: 0x006648b43b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x22d: addr2: 0x48b4: fuse#: 0x00
+msr: 0x00000634: desc: 0x3f6648b93b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x22e: addr2: 0x48b8: fuse#: 0x3f
+msr: 0x00000634: desc: 0x006648b83b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x22e: addr2: 0x48b8: fuse#: 0x00
+msr: 0x00000635: desc: 0x3f6648bd3b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x22f: addr2: 0x48bc: fuse#: 0x3f
+msr: 0x00000635: desc: 0x006648bc3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x22f: addr2: 0x48bc: fuse#: 0x00
+msr: 0x00000639: desc: 0x3f6647a93b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1ea: addr2: 0x47a8: fuse#: 0x3f
+msr: 0x00000639: desc: 0x006647a83b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1ea: addr2: 0x47a8: fuse#: 0x00
+msr: 0x00000641: desc: 0x3f6647ad3b: mode:   N: chkproc: U3720: rdproc: U3198: addr1: 0x1eb: addr2: 0x47ac: fuse#: 0x3f
+msr: 0x00000641: desc: 0x006647ac3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x1eb: addr2: 0x47ac: fuse#: 0x00
+msr: 0x0000064f: desc: 0x006649fc3b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x27f: addr2: 0x49fc: fuse#: 0x00
+msr: 0x00000660: desc: 0x3f6d17a2fd: mode:   N: chkproc: U3758: rdproc: U31b4: addr1: 0x5e8: addr2: 0x17a0: fuse#: 0x3f
+msr: 0x00000680: desc: 0x3f1c00823d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x020: addr2: 0x0080: fuse#: 0x3f
+msr: 0x00000681: desc: 0x3f1c40863d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x021: addr2: 0x4084: fuse#: 0x3f
+msr: 0x00000682: desc: 0x3f1c008a3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x022: addr2: 0x0088: fuse#: 0x3f
+msr: 0x00000683: desc: 0x3f1c408e3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x023: addr2: 0x408c: fuse#: 0x3f
+msr: 0x00000684: desc: 0x3f1c40923d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x024: addr2: 0x4090: fuse#: 0x3f
+msr: 0x00000685: desc: 0x3f1c40963d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x025: addr2: 0x4094: fuse#: 0x3f
+msr: 0x00000686: desc: 0x3f1c409a3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x026: addr2: 0x4098: fuse#: 0x3f
+msr: 0x00000687: desc: 0x3f1c409e3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x027: addr2: 0x409c: fuse#: 0x3f
+msr: 0x00000688: desc: 0x3f1c40a23d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x028: addr2: 0x40a0: fuse#: 0x3f
+msr: 0x00000689: desc: 0x3f1c40a63d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x029: addr2: 0x40a4: fuse#: 0x3f
+msr: 0x0000068a: desc: 0x3f1c40aa3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x02a: addr2: 0x40a8: fuse#: 0x3f
+msr: 0x0000068b: desc: 0x3f1c40ae3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x02b: addr2: 0x40ac: fuse#: 0x3f
+msr: 0x0000068c: desc: 0x3f1c40b23d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x02c: addr2: 0x40b0: fuse#: 0x3f
+msr: 0x0000068d: desc: 0x3f1c40b63d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x02d: addr2: 0x40b4: fuse#: 0x3f
+msr: 0x0000068e: desc: 0x3f1c40ba3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x02e: addr2: 0x40b8: fuse#: 0x3f
+msr: 0x0000068f: desc: 0x3f1c40be3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x02f: addr2: 0x40bc: fuse#: 0x3f
+msr: 0x00000690: desc: 0x3f1c00c23d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x030: addr2: 0x00c0: fuse#: 0x3f
+msr: 0x00000691: desc: 0x3f1c40c63d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x031: addr2: 0x40c4: fuse#: 0x3f
+msr: 0x00000692: desc: 0x3f1c00ca3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x032: addr2: 0x00c8: fuse#: 0x3f
+msr: 0x00000693: desc: 0x3f1c40ce3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x033: addr2: 0x40cc: fuse#: 0x3f
+msr: 0x00000694: desc: 0x3f1c00d23d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x034: addr2: 0x00d0: fuse#: 0x3f
+msr: 0x00000695: desc: 0x3f1c40d63d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x035: addr2: 0x40d4: fuse#: 0x3f
+msr: 0x00000696: desc: 0x3f1c00da3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x036: addr2: 0x00d8: fuse#: 0x3f
+msr: 0x00000697: desc: 0x3f1c40de3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x037: addr2: 0x40dc: fuse#: 0x3f
+msr: 0x00000698: desc: 0x3f1c40e23d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x038: addr2: 0x40e0: fuse#: 0x3f
+msr: 0x00000699: desc: 0x3f1c40e63d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x039: addr2: 0x40e4: fuse#: 0x3f
+msr: 0x0000069a: desc: 0x3f1c00ea3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x03a: addr2: 0x00e8: fuse#: 0x3f
+msr: 0x0000069b: desc: 0x3f1c40ee3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x03b: addr2: 0x40ec: fuse#: 0x3f
+msr: 0x0000069c: desc: 0x3f1c40f23d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x03c: addr2: 0x40f0: fuse#: 0x3f
+msr: 0x0000069d: desc: 0x3f1c40f63d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x03d: addr2: 0x40f4: fuse#: 0x3f
+msr: 0x0000069e: desc: 0x3f1c00fa3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x03e: addr2: 0x00f8: fuse#: 0x3f
+msr: 0x0000069f: desc: 0x3f1c40fe3d: mode:   N: chkproc: U3740: rdproc: U3070: addr1: 0x03f: addr2: 0x40fc: fuse#: 0x3f
+msr: 0x000006c0: desc: 0x3f0001003d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x040: addr2: 0x0100: fuse#: 0x3f
+msr: 0x000006c1: desc: 0x3f0001043d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x041: addr2: 0x0104: fuse#: 0x3f
+msr: 0x000006c2: desc: 0x3f0001083d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x042: addr2: 0x0108: fuse#: 0x3f
+msr: 0x000006c3: desc: 0x3f00010c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x043: addr2: 0x010c: fuse#: 0x3f
+msr: 0x000006c4: desc: 0x3f0041103d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x044: addr2: 0x4110: fuse#: 0x3f
+msr: 0x000006c5: desc: 0x3f0041143d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x045: addr2: 0x4114: fuse#: 0x3f
+msr: 0x000006c6: desc: 0x3f0041183d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x046: addr2: 0x4118: fuse#: 0x3f
+msr: 0x000006c7: desc: 0x3f00411c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x047: addr2: 0x411c: fuse#: 0x3f
+msr: 0x000006c8: desc: 0x3f0041203d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x048: addr2: 0x4120: fuse#: 0x3f
+msr: 0x000006c9: desc: 0x3f0041243d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x049: addr2: 0x4124: fuse#: 0x3f
+msr: 0x000006ca: desc: 0x3f0041283d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x04a: addr2: 0x4128: fuse#: 0x3f
+msr: 0x000006cb: desc: 0x3f00412c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x04b: addr2: 0x412c: fuse#: 0x3f
+msr: 0x000006cc: desc: 0x3f0041303d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x04c: addr2: 0x4130: fuse#: 0x3f
+msr: 0x000006cd: desc: 0x3f0041343d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x04d: addr2: 0x4134: fuse#: 0x3f
+msr: 0x000006ce: desc: 0x3f0041383d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x04e: addr2: 0x4138: fuse#: 0x3f
+msr: 0x000006cf: desc: 0x3f00413c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x04f: addr2: 0x413c: fuse#: 0x3f
+msr: 0x000006d0: desc: 0x3f0001403d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x050: addr2: 0x0140: fuse#: 0x3f
+msr: 0x000006d1: desc: 0x3f0001443d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x051: addr2: 0x0144: fuse#: 0x3f
+msr: 0x000006d2: desc: 0x3f0001483d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x052: addr2: 0x0148: fuse#: 0x3f
+msr: 0x000006d3: desc: 0x3f00014c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x053: addr2: 0x014c: fuse#: 0x3f
+msr: 0x000006d4: desc: 0x3f0001503d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x054: addr2: 0x0150: fuse#: 0x3f
+msr: 0x000006d5: desc: 0x3f0001543d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x055: addr2: 0x0154: fuse#: 0x3f
+msr: 0x000006d6: desc: 0x3f0001583d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x056: addr2: 0x0158: fuse#: 0x3f
+msr: 0x000006d7: desc: 0x3f00015c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x057: addr2: 0x015c: fuse#: 0x3f
+msr: 0x000006d8: desc: 0x3f0041603d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x058: addr2: 0x4160: fuse#: 0x3f
+msr: 0x000006d9: desc: 0x3f0001643d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x059: addr2: 0x0164: fuse#: 0x3f
+msr: 0x000006da: desc: 0x3f0001683d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x05a: addr2: 0x0168: fuse#: 0x3f
+msr: 0x000006db: desc: 0x3f00016c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x05b: addr2: 0x016c: fuse#: 0x3f
+msr: 0x000006dc: desc: 0x3f0041703d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x05c: addr2: 0x4170: fuse#: 0x3f
+msr: 0x000006dd: desc: 0x3f0001743d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x05d: addr2: 0x0174: fuse#: 0x3f
+msr: 0x000006de: desc: 0x3f0001783d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x05e: addr2: 0x0178: fuse#: 0x3f
+msr: 0x000006df: desc: 0x3f00017c3d: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x05f: addr2: 0x017c: fuse#: 0x3f
+msr: 0x000006e0: desc: 0x3f0b0077bd: mode:   N: chkproc: U3770: rdproc: U302c: addr1: 0x01d: addr2: 0x0074: fuse#: 0x3f
+msr: 0x00000800: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000801: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000802: desc: 0x3f078a09bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x282: addr2: 0x8a08: fuse#: 0x3f
+msr: 0x00000803: desc: 0x3f078a0dbb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x283: addr2: 0x8a0c: fuse#: 0x3f
+msr: 0x00000804: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000805: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000806: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000807: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000808: desc: 0x3f078a21fb: mode:   N: chkproc: U3738: rdproc: U301c: addr1: 0x288: addr2: 0x8a20: fuse#: 0x3f
+msr: 0x00000809: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000080a: desc: 0x3f498a29bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x28a: addr2: 0x8a28: fuse#: 0x3f
+msr: 0x0000080b: desc: 0x3b608a2dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x28b: addr2: 0x8a2c: fuse#: 0x3b
+msr: 0x0000080c: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000080d: desc: 0x3f078a35bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x28d: addr2: 0x8a34: fuse#: 0x3f
+msr: 0x0000080e: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000080f: desc: 0x3f078a3dbb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x28f: addr2: 0x8a3c: fuse#: 0x3f
+msr: 0x00000810: desc: 0x3d498a41bd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x290: addr2: 0x8a40: fuse#: 0x3d
+msr: 0x00000811: desc: 0x3b498a41bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x290: addr2: 0x8a40: fuse#: 0x3b
+msr: 0x00000812: desc: 0x3d498a45bd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x291: addr2: 0x8a44: fuse#: 0x3d
+msr: 0x00000813: desc: 0x3b498a45bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x291: addr2: 0x8a44: fuse#: 0x3b
+msr: 0x00000814: desc: 0x3d498a49bd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x292: addr2: 0x8a48: fuse#: 0x3d
+msr: 0x00000815: desc: 0x3b498a49bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x292: addr2: 0x8a48: fuse#: 0x3b
+msr: 0x00000816: desc: 0x3d498a4dbd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x293: addr2: 0x8a4c: fuse#: 0x3d
+msr: 0x00000817: desc: 0x3b498a4dbb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x293: addr2: 0x8a4c: fuse#: 0x3b
+msr: 0x00000818: desc: 0x3f03ca51bd: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x294: addr2: 0xca50: fuse#: 0x3f
+msr: 0x00000819: desc: 0x3f038a51bb: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x294: addr2: 0x8a50: fuse#: 0x3f
+msr: 0x0000081a: desc: 0x3d038a55bd: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x295: addr2: 0x8a54: fuse#: 0x3d
+msr: 0x0000081b: desc: 0x3b038a55bb: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x295: addr2: 0x8a54: fuse#: 0x3b
+msr: 0x0000081c: desc: 0x3f03ca59bd: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x296: addr2: 0xca58: fuse#: 0x3f
+msr: 0x0000081d: desc: 0x3f038a59bb: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x296: addr2: 0x8a58: fuse#: 0x3f
+msr: 0x0000081e: desc: 0x3d038a5dbd: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x297: addr2: 0x8a5c: fuse#: 0x3d
+msr: 0x0000081f: desc: 0x3b038a5dbb: mode:   N: chkproc: U3730: rdproc: U300c: addr1: 0x297: addr2: 0x8a5c: fuse#: 0x3b
+msr: 0x00000820: desc: 0x3d498a61bd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x298: addr2: 0x8a60: fuse#: 0x3d
+msr: 0x00000821: desc: 0x3f498a61bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x298: addr2: 0x8a60: fuse#: 0x3f
+msr: 0x00000822: desc: 0x3f498a65bd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x299: addr2: 0x8a64: fuse#: 0x3f
+msr: 0x00000823: desc: 0x3f498a65bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x299: addr2: 0x8a64: fuse#: 0x3f
+msr: 0x00000824: desc: 0x3f498a69bd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x29a: addr2: 0x8a68: fuse#: 0x3f
+msr: 0x00000825: desc: 0x3f498a69bb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x29a: addr2: 0x8a68: fuse#: 0x3f
+msr: 0x00000826: desc: 0x3d498a6dbd: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x29b: addr2: 0x8a6c: fuse#: 0x3d
+msr: 0x00000827: desc: 0x3f498a6dbb: mode:   N: chkproc: U3730: rdproc: U3124: addr1: 0x29b: addr2: 0x8a6c: fuse#: 0x3f
+msr: 0x00000828: desc: 0x03078b95bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2e5: addr2: 0x8b94: fuse#: 0x03
+msr: 0x00000829: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000082a: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000082b: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000082c: desc: 0x3f600085bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x021: addr2: 0x0084: fuse#: 0x3f
+msr: 0x0000082d: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000082e: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000082f: desc: 0x3f078ba1bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2e8: addr2: 0x8ba0: fuse#: 0x3f
+msr: 0x00000830: desc: 0x3f078b9dbf: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2e7: addr2: 0x8b9c: fuse#: 0x3f
+msr: 0x00000831: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000832: desc: 0x39078ac9bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b2: addr2: 0x8ac8: fuse#: 0x39
+msr: 0x00000833: desc: 0x00078acdbb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b3: addr2: 0x8acc: fuse#: 0x00
+msr: 0x00000834: desc: 0x3f078ad1bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b4: addr2: 0x8ad0: fuse#: 0x3f
+msr: 0x00000835: desc: 0x3f078ad5bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b5: addr2: 0x8ad4: fuse#: 0x3f
+msr: 0x00000836: desc: 0x2b078ad9bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b6: addr2: 0x8ad8: fuse#: 0x2b
+msr: 0x00000837: desc: 0x2b078addbb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b7: addr2: 0x8adc: fuse#: 0x2b
+msr: 0x00000838: desc: 0x3f07cae1bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2b8: addr2: 0xcae0: fuse#: 0x3f
+msr: 0x00000839: desc: 0x3f4b8be5bb: mode:   N: chkproc: U3730: rdproc: U312c: addr1: 0x2f9: addr2: 0x8be4: fuse#: 0x3f
+msr: 0x0000083a: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000083b: desc: 0x3f608afdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc: fuse#: 0x3f
+msr: 0x0000083c: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x0000083d: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x0000083e: desc: 0x3b078af9bb: mode:   N: chkproc: U3730: rdproc: U301c: addr1: 0x2be: addr2: 0x8af8: fuse#: 0x3b
+msr: 0x0000083f: desc: 0x3f608afdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc: fuse#: 0x3f
+msr: 0x00000840: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000841: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000842: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x00000843: desc: 0x3f60000dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c: fuse#: 0x3f
+msr: 0x00000844: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000845: desc: 0x3f600805bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x201: addr2: 0x0804: fuse#: 0x3f
+msr: 0x00000846: desc: 0x3f600809bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x202: addr2: 0x0808: fuse#: 0x3f
+msr: 0x00000847: desc: 0x3f60080dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x203: addr2: 0x080c: fuse#: 0x3f
+msr: 0x00000848: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000849: desc: 0x3f608b05bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2c1: addr2: 0x8b04: fuse#: 0x3f
+msr: 0x0000084a: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000084b: desc: 0x3f608b2dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2cb: addr2: 0x8b2c: fuse#: 0x3f
+msr: 0x0000084c: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000084d: desc: 0x3f600105bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x041: addr2: 0x0104: fuse#: 0x3f
+msr: 0x0000084e: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x0000084f: desc: 0x3f601fbdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc: fuse#: 0x3f
+msr: 0x00000850: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000851: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000852: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000853: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000854: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000855: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000856: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000857: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000858: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x00000859: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x0000085a: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000085b: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x0000085c: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x0000085d: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x0000085e: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x0000085f: desc: 0x3f601fbdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc: fuse#: 0x3f
+msr: 0x00000860: desc: 0x3b600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3b
+msr: 0x00000861: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000862: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x00000863: desc: 0x3f60000dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c: fuse#: 0x3f
+msr: 0x00000864: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000865: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000866: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x00000867: desc: 0x3f60000dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c: fuse#: 0x3f
+msr: 0x00000868: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000869: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000086a: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000086b: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000086c: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000086d: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000086e: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x0000086f: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x00000870: desc: 0x3b600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3b
+msr: 0x00000871: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000872: desc: 0x3b600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3b
+msr: 0x00000873: desc: 0x3b600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3b
+msr: 0x00000874: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000875: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000876: desc: 0x3b600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3b
+msr: 0x00000877: desc: 0x3b600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3b
+msr: 0x00000878: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x00000879: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x0000087a: desc: 0x3b600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3b
+msr: 0x0000087b: desc: 0x3b608afdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc: fuse#: 0x3b
+msr: 0x0000087c: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x0000087d: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x0000087e: desc: 0x3b601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3b
+msr: 0x0000087f: desc: 0x3b609ffdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ff: addr2: 0x9ffc: fuse#: 0x3b
+msr: 0x00000880: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000881: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000882: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000883: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x00000884: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000885: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000886: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000887: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x00000888: desc: 0x3f600021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x0020: fuse#: 0x3f
+msr: 0x00000889: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000088a: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000088b: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x0000088c: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000088d: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000088e: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000088f: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000890: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000891: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x00000892: desc: 0x3f600045bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044: fuse#: 0x3f
+msr: 0x00000893: desc: 0x3f600045bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044: fuse#: 0x3f
+msr: 0x00000894: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x00000895: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x00000896: desc: 0x3f60004dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c: fuse#: 0x3f
+msr: 0x00000897: desc: 0x3f60004dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c: fuse#: 0x3f
+msr: 0x00000898: desc: 0x3f604021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020: fuse#: 0x3f
+msr: 0x00000899: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000089a: desc: 0x3f600045bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044: fuse#: 0x3f
+msr: 0x0000089b: desc: 0x3f600045bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x011: addr2: 0x0044: fuse#: 0x3f
+msr: 0x0000089c: desc: 0x3f604009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x4008: fuse#: 0x3f
+msr: 0x0000089d: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x0000089e: desc: 0x3f60004dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c: fuse#: 0x3f
+msr: 0x0000089f: desc: 0x3f60004dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x013: addr2: 0x004c: fuse#: 0x3f
+msr: 0x000008a0: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008a1: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008a2: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008a3: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008a4: desc: 0x3f600009bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x002: addr2: 0x0008: fuse#: 0x3f
+msr: 0x000008a5: desc: 0x3f60000dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c: fuse#: 0x3f
+msr: 0x000008a6: desc: 0x3f60000dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c: fuse#: 0x3f
+msr: 0x000008a7: desc: 0x3f60000dbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x003: addr2: 0x000c: fuse#: 0x3f
+msr: 0x000008a8: desc: 0x3f6000a5bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x029: addr2: 0x00a4: fuse#: 0x3f
+msr: 0x000008a9: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x000008aa: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008ab: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x000008ac: desc: 0x3f600085bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x021: addr2: 0x0084: fuse#: 0x3f
+msr: 0x000008ad: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008ae: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008af: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008b0: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008b1: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008b2: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008b3: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008b4: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008b5: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008b6: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008b7: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008b8: desc: 0x3f604021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020: fuse#: 0x3f
+msr: 0x000008b9: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008ba: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008bb: desc: 0x3f608afdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc: fuse#: 0x3f
+msr: 0x000008bc: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x000008bd: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008be: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008bf: desc: 0x3f608afdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc: fuse#: 0x3f
+msr: 0x000008c0: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008c1: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008c2: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008c3: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008c4: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x000008c5: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x000008c6: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x000008c7: desc: 0x3f600801bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x200: addr2: 0x0800: fuse#: 0x3f
+msr: 0x000008c8: desc: 0x3f600021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x0020: fuse#: 0x3f
+msr: 0x000008c9: desc: 0x3f608a05bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x281: addr2: 0x8a04: fuse#: 0x3f
+msr: 0x000008ca: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008cb: desc: 0x3f608a05bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x281: addr2: 0x8a04: fuse#: 0x3f
+msr: 0x000008cc: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008cd: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008ce: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x000008cf: desc: 0x3f601fbdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc: fuse#: 0x3f
+msr: 0x000008d0: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d1: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d2: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d3: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d4: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d5: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d6: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d7: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008d8: desc: 0x3f604021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020: fuse#: 0x3f
+msr: 0x000008d9: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008da: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008db: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008dc: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x000008dd: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008de: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x000008df: desc: 0x3f601fbdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ef: addr2: 0x1fbc: fuse#: 0x3f
+msr: 0x000008e0: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008e1: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008e2: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008e3: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008e4: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008e5: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008e6: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008e7: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008e8: desc: 0x3f600021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x0020: fuse#: 0x3f
+msr: 0x000008e9: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x000008ea: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008eb: desc: 0x3f608a01bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x280: addr2: 0x8a00: fuse#: 0x3f
+msr: 0x000008ec: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008ed: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008ee: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x000008ef: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x000008f0: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008f1: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008f2: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008f3: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008f4: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008f5: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008f6: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008f7: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008f8: desc: 0x3f604021bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x008: addr2: 0x4020: fuse#: 0x3f
+msr: 0x000008f9: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008fa: desc: 0x3f600001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x000008fb: desc: 0x3f608afdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x2bf: addr2: 0x8afc: fuse#: 0x3f
+msr: 0x000008fc: desc: 0x3f604001bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x000: addr2: 0x4000: fuse#: 0x3f
+msr: 0x000008fd: desc: 0x3f600005bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x001: addr2: 0x0004: fuse#: 0x3f
+msr: 0x000008fe: desc: 0x3f601fb9bb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x3f
+msr: 0x000008ff: desc: 0x3f609ffdbb: mode:   N: chkproc: U3730: rdproc: U3180: addr1: 0x7ff: addr2: 0x9ffc: fuse#: 0x3f
+msr: 0x00000900: desc: 0x3f01016c1f: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x05b: addr2: 0x016c: fuse#: 0x3f
+msr: 0x00000900: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000901: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000902: desc: 0x0f0000701b: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x01c: addr2: 0x0070: fuse#: 0x0f
+msr: 0x00000902: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000903: desc: 0x1b5000f399: mode:   X: chkproc: U3770: rdproc: U3140: addr1: 0x03c: addr2: 0x00f0: fuse#: 0x1b
+msr: 0x00000903: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000904: desc: 0x070c1b0e1d: mode:   X: chkproc: U3740: rdproc: U3030: addr1: 0x6c3: addr2: 0x1b0c: fuse#: 0x07
+msr: 0x00000904: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000905: desc: 0x07010a141d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x285: addr2: 0x0a14: fuse#: 0x07
+msr: 0x00000905: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000906: desc: 0x07010a181d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x286: addr2: 0x0a18: fuse#: 0x07
+msr: 0x00000906: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000907: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000908: desc: 0x115124161d: mode:   X: chkproc: U3740: rdproc: U3144: addr1: 0x905: addr2: 0x2414: fuse#: 0x11
+msr: 0x00000908: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000909: desc: 0x1d0120241d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x809: addr2: 0x2024: fuse#: 0x1d
+msr: 0x00000909: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000090a: desc: 0x1f0120281d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x80a: addr2: 0x2028: fuse#: 0x1f
+msr: 0x0000090a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000090b: desc: 0x1f01202c1d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x80b: addr2: 0x202c: fuse#: 0x1f
+msr: 0x0000090b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000090c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000090d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000090f: desc: 0x006630c01b: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0xc30: addr2: 0x30c0: fuse#: 0x00
+msr: 0x00000910: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000911: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000912: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000913: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000914: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000915: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000916: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000917: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000918: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000919: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000091a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000091b: desc: 0x1f01006c1d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x01b: addr2: 0x006c: fuse#: 0x1f
+msr: 0x0000091b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000091c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000091d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000091e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000091f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000920: desc: 0x1d01008019: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x020: addr2: 0x0080: fuse#: 0x1d
+msr: 0x00000920: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000921: desc: 0x006647401b: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x1d0: addr2: 0x4740: fuse#: 0x00
+msr: 0x00000922: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000923: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000924: desc: 0x3f0100901b: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x024: addr2: 0x0090: fuse#: 0x3f
+msr: 0x00000924: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000925: desc: 0x3f568a7e5f: mode:   X: chkproc: U3748: rdproc: U3158: addr1: 0x29f: addr2: 0x8a7c: fuse#: 0x3f
+msr: 0x00000925: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000926: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000927: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000928: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000929: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000092a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000092b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000092c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000092d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000092e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000092f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000930: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000931: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000932: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000933: desc: 0x1d0100cc1d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x033: addr2: 0x00cc: fuse#: 0x1d
+msr: 0x00000933: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000934: desc: 0x3f0100d01b: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x034: addr2: 0x00d0: fuse#: 0x3f
+msr: 0x00000934: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000935: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000936: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000937: desc: 0x1b078bdc1b: mode:   X: chkproc: U3700: rdproc: U301c: addr1: 0x2f7: addr2: 0x8bdc: fuse#: 0x1b
+msr: 0x00000937: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000938: desc: 0x1307cbe01b: mode:   X: chkproc: U3700: rdproc: U301c: addr1: 0x2f8: addr2: 0xcbe0: fuse#: 0x13
+msr: 0x00000938: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000939: desc: 0x3f0100e41b: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x039: addr2: 0x00e4: fuse#: 0x3f
+msr: 0x00000939: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000093a: desc: 0x3f0200001d: mode:   X: chkproc: U3700: rdproc: U3008: addr1: 0x000: addr2: 0x0000: fuse#: 0x3f
+msr: 0x0000093a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000093b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000093c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000093d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000093e: desc: 0x1d0100f81d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x03e: addr2: 0x00f8: fuse#: 0x1d
+msr: 0x0000093e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000093f: desc: 0x1f6600041b: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x001: addr2: 0x0004: fuse#: 0x1f
+msr: 0x0000093f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000940: desc: 0x3f0015001d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x540: addr2: 0x1500: fuse#: 0x3f
+msr: 0x00000940: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000941: desc: 0x3f0015041d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x541: addr2: 0x1504: fuse#: 0x3f
+msr: 0x00000941: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000942: desc: 0x3f0015081d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x542: addr2: 0x1508: fuse#: 0x3f
+msr: 0x00000942: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000943: desc: 0x3f00150c1d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x543: addr2: 0x150c: fuse#: 0x3f
+msr: 0x00000943: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000944: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000945: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000946: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000947: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000948: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000949: desc: 0x3d0101241d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x049: addr2: 0x0124: fuse#: 0x3d
+msr: 0x00000949: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000094a: desc: 0x3f0014781d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x51e: addr2: 0x1478: fuse#: 0x3f
+msr: 0x0000094a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000094b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000094c: desc: 0x3d0101301d: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x04c: addr2: 0x0130: fuse#: 0x3d
+msr: 0x0000094c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000094d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000094e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000094f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000950: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000951: desc: 0x3f66003c1b: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x00f: addr2: 0x003c: fuse#: 0x3f
+msr: 0x00000951: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000952: desc: 0x3f0d50da9b: mode:   X: chkproc: U3750: rdproc: U3034: addr1: 0x436: addr2: 0x50d8: fuse#: 0x3f
+msr: 0x00000952: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000953: desc: 0x3f0c04161b: mode:   X: chkproc: U3740: rdproc: U3030: addr1: 0x105: addr2: 0x0414: fuse#: 0x3f
+msr: 0x00000953: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000954: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000955: desc: 0x3f0015541f: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x555: addr2: 0x1554: fuse#: 0x3f
+msr: 0x00000955: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000956: desc: 0x3f0015581f: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x556: addr2: 0x1558: fuse#: 0x3f
+msr: 0x00000956: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000957: desc: 0x3f00155c1f: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x557: addr2: 0x155c: fuse#: 0x3f
+msr: 0x00000957: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000958: desc: 0x3f0141601f: mode:   X: chkproc: U3700: rdproc: U3004: addr1: 0x058: addr2: 0x4160: fuse#: 0x3f
+msr: 0x00000958: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000959: desc: 0x3f5c14661b: mode:   X: chkproc: U3740: rdproc: U3170: addr1: 0x519: addr2: 0x1464: fuse#: 0x3f
+msr: 0x00000959: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000095a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000095b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000095c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000095d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000095e: desc: 0x37001fb81b: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x7ee: addr2: 0x1fb8: fuse#: 0x37
+msr: 0x0000095e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000095f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000960: desc: 0x006647301d: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x1cc: addr2: 0x4730: fuse#: 0x00
+msr: 0x00000961: desc: 0x006647381d: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x1ce: addr2: 0x4738: fuse#: 0x00
+msr: 0x00000962: desc: 0x3f0015881d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x562: addr2: 0x1588: fuse#: 0x3f
+msr: 0x00000962: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000963: desc: 0x3f00158c1d: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x563: addr2: 0x158c: fuse#: 0x3f
+msr: 0x00000963: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000964: desc: 0x1f0015901f: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x564: addr2: 0x1590: fuse#: 0x1f
+msr: 0x00000964: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000965: desc: 0x1f0015941f: mode:   X: chkproc: U3700: rdproc: U3000: addr1: 0x565: addr2: 0x1594: fuse#: 0x1f
+msr: 0x00000965: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000966: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000967: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000968: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000969: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000096a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000096b: desc: 0x3f0c88225b: mode:   X: chkproc: U3748: rdproc: U3030: addr1: 0x208: addr2: 0x8820: fuse#: 0x3f
+msr: 0x0000096b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000096c: desc: 0x1f5d00001b: mode:   X: chkproc: U3700: rdproc: U3174: addr1: 0x000: addr2: 0x0000: fuse#: 0x1f
+msr: 0x0000096c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000096d: desc: 0x00664e081b: mode:   X: chkproc: U3700: rdproc: U3198: addr1: 0x382: addr2: 0x4e08: fuse#: 0x00
+msr: 0x0000096e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000096f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000970: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000971: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000972: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000973: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000974: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000975: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000976: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000977: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000978: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000979: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000097a: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000097b: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000097c: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000097d: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000097e: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x0000097f: desc: 0x003000001d: mode:   X: chkproc: U3700: rdproc: U30c0: addr1: 0x000: addr2: 0x0000: fuse#: 0x00
+msr: 0x00000c80: desc: 0x006684043b: mode:   N: chkproc: U3700: rdproc: U3198: addr1: 0x101: addr2: 0x8404: fuse#: 0x00
+msr: 0x00000c8f: desc: 0x11078fd037: mode:   F: chkproc: U3700: rdproc: U301c: addr1: 0x3f4: addr2: 0x8fd0: fuse#: 0x11
+msr: 0x00000d10: desc: 0x11078fc037: mode:   F: chkproc: U3700: rdproc: U301c: addr1: 0x3f0: addr2: 0x8fc0: fuse#: 0x11
+msr: 0x00000d11: desc: 0x11078fc437: mode:   F: chkproc: U3700: rdproc: U301c: addr1: 0x3f1: addr2: 0x8fc4: fuse#: 0x11
+msr: 0x00000d12: desc: 0x11078fc837: mode:   F: chkproc: U3700: rdproc: U301c: addr1: 0x3f2: addr2: 0x8fc8: fuse#: 0x11
+msr: 0x00000d13: desc: 0x11078fcc37: mode:   F: chkproc: U3700: rdproc: U301c: addr1: 0x3f3: addr2: 0x8fcc: fuse#: 0x11
+msr: 0x00000d90: desc: 0x3c5f1c0637: mode:   F: chkproc: U3740: rdproc: U317c: addr1: 0x701: addr2: 0x1c04: fuse#: 0x3c
+msr: 0x00000da0: desc: 0x3f0c008fbb: mode:   N: chkproc: U3770: rdproc: U3030: addr1: 0x023: addr2: 0x008c: fuse#: 0x3f
+msr: 0xc0000080: desc: 0x3b001ffc3b: mode:   N: chkproc: U3700: rdproc: U3000: addr1: 0x7ff: addr2: 0x1ffc: fuse#: 0x3b
+msr: 0xc0000081: desc: 0x1f0142043d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x081: addr2: 0x4204: fuse#: 0x1f
+msr: 0xc0000082: desc: 0x3d0102083d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x082: addr2: 0x0208: fuse#: 0x3d
+msr: 0xc0000083: desc: 0x3f01420c3d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x083: addr2: 0x420c: fuse#: 0x3f
+msr: 0xc0000084: desc: 0x3f014a1039: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x284: addr2: 0x4a10: fuse#: 0x3f
+msr: 0xc0000100: desc: 0x3d0800483d: mode:   N: chkproc: U3700: rdproc: U3020: addr1: 0x012: addr2: 0x0048: fuse#: 0x3d
+msr: 0xc0000101: desc: 0x3d0900003d: mode:   N: chkproc: U3700: rdproc: U3024: addr1: 0x000: addr2: 0x0000: fuse#: 0x3d
+msr: 0xc0000102: desc: 0x3d0100083d: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0x002: addr2: 0x0008: fuse#: 0x3d
+msr: 0xc0000103: desc: 0x3f01fc0c3b: mode:   N: chkproc: U3700: rdproc: U3004: addr1: 0xf03: addr2: 0xfc0c: fuse#: 0x3f
